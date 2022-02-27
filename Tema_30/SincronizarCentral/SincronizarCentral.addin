@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SincronizarCentral</Text>
+    <Description>Some description for SincronizarCentral</Description>
+    <Assembly>SincronizarCentral.dll</Assembly>
+    <FullClassName>SincronizarCentral.SincronizarCentral</FullClassName>
+    <ClientId>99e0ecfa-78b1-4c3e-b135-676527609c09</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SincronizarCentral</Name>
+    <Assembly>SincronizarCentral.dll</Assembly>
+    <FullClassName>SincronizarCentral.App</FullClassName>
+    <ClientId>e0d8d97d-36e7-472b-8bb4-fc81da17bce5</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

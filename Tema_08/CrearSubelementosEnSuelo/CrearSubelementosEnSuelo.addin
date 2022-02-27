@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearSubelementosEnSuelo</Text>
+    <Description>Some description for CrearSubelementosEnSuelo</Description>
+    <Assembly>CrearSubelementosEnSuelo.dll</Assembly>
+    <FullClassName>CrearSubelementosEnSuelo.CrearSubelementosEnSuelo</FullClassName>
+    <ClientId>2b2ebfc6-b0d3-4bf8-9bf1-442023837b10</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearSubelementosEnSuelo</Name>
+    <Assembly>CrearSubelementosEnSuelo.dll</Assembly>
+    <FullClassName>CrearSubelementosEnSuelo.App</FullClassName>
+    <ClientId>8fc8d483-9c5f-4532-8905-3ac8b760e09c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

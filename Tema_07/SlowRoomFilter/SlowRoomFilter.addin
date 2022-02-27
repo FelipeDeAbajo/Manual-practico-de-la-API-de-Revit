@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowRoomFilter</Text>
+    <Description>Some description for SlowRoomFilter</Description>
+    <Assembly>SlowRoomFilter.dll</Assembly>
+    <FullClassName>SlowRoomFilter.SlowRoomFilter</FullClassName>
+    <ClientId>85576fba-70d9-4ed6-bc0d-fd46fd14cc7c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowRoomFilter</Name>
+    <Assembly>SlowRoomFilter.dll</Assembly>
+    <FullClassName>SlowRoomFilter.App</FullClassName>
+    <ClientId>6b10db04-39d8-416e-ac1e-e6083ac1ee25</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

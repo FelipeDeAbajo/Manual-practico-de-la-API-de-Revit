@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearRevision</Text>
+    <Description>Some description for CrearRevision</Description>
+    <Assembly>CrearRevision.dll</Assembly>
+    <FullClassName>CrearRevision.CrearRevision</FullClassName>
+    <ClientId>445afccb-2af0-4d13-82e5-bb9183e07d84</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearRevision</Name>
+    <Assembly>CrearRevision.dll</Assembly>
+    <FullClassName>CrearRevision.App</FullClassName>
+    <ClientId>63c2d822-80f1-4566-b898-269e02d2df2a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

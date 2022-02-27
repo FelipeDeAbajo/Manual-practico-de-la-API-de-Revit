@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Exclusion</Text>
+    <Description>Some description for Exclusion</Description>
+    <Assembly>Exclusion.dll</Assembly>
+    <FullClassName>Exclusion.Exclusion</FullClassName>
+    <ClientId>f07e9ea9-743e-4487-b15e-087492824f0b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Exclusion</Name>
+    <Assembly>Exclusion.dll</Assembly>
+    <FullClassName>Exclusion.App</FullClassName>
+    <ClientId>dfcb7ffc-be91-4e31-9aee-212eed1c9b3b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PickSelectBox</Text>
+    <Description>Some description for PickSelectBox</Description>
+    <Assembly>PickSelectBox.dll</Assembly>
+    <FullClassName>PickSelectBox.PickSelectBox</FullClassName>
+    <ClientId>d104fae0-0f98-4e45-ae40-3ae4c68ef04e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PickSelectBox</Name>
+    <Assembly>PickSelectBox.dll</Assembly>
+    <FullClassName>PickSelectBox.App</FullClassName>
+    <ClientId>39c983cd-b8f4-4dbb-b471-ad01e65b428d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

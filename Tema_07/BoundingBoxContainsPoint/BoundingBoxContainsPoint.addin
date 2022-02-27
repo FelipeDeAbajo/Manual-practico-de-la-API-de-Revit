@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command BoundingBoxContainsPoint</Text>
+    <Description>Some description for BoundingBoxContainsPoint</Description>
+    <Assembly>BoundingBoxContainsPoint.dll</Assembly>
+    <FullClassName>BoundingBoxContainsPoint.BoundingBoxContainsPoint</FullClassName>
+    <ClientId>0b78fbfc-e713-437a-8b7a-b3b51f18e4b6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application BoundingBoxContainsPoint</Name>
+    <Assembly>BoundingBoxContainsPoint.dll</Assembly>
+    <FullClassName>BoundingBoxContainsPoint.App</FullClassName>
+    <ClientId>660b480d-2197-4d35-bc80-1fbe2b5ff2f2</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

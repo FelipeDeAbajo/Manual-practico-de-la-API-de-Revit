@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowFamilyInstance</Text>
+    <Description>Some description for SlowFamilyInstance</Description>
+    <Assembly>SlowFamilyInstance.dll</Assembly>
+    <FullClassName>SlowFamilyInstance.SlowFamilyInstance</FullClassName>
+    <ClientId>466b1b97-de65-42e4-ae52-8e4a81854f46</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowFamilyInstance</Name>
+    <Assembly>SlowFamilyInstance.dll</Assembly>
+    <FullClassName>SlowFamilyInstance.App</FullClassName>
+    <ClientId>6a9ddce7-165c-471a-8df2-9998f375a73d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

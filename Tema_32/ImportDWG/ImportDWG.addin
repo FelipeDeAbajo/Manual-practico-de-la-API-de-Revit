@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ImportDWG</Text>
+    <Description>Some description for ImportDWG</Description>
+    <Assembly>ImportDWG.dll</Assembly>
+    <FullClassName>ImportDWG.ImportDWG</FullClassName>
+    <ClientId>cd3b3813-4b5b-4d55-8f03-070997e0af4b</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ImportDWG</Name>
+    <Assembly>ImportDWG.dll</Assembly>
+    <FullClassName>ImportDWG.App</FullClassName>
+    <ClientId>1691a0ed-b0b1-4d10-b303-e2dea2a8055d</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

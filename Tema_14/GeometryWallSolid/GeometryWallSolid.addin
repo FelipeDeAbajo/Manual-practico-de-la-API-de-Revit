@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command GeometryWallSolid</Text>
+    <Description>Some description for GeometryWallSolid</Description>
+    <Assembly>GeometryWallSolid.dll</Assembly>
+    <FullClassName>GeometryWallSolid.GeometryWallSolid</FullClassName>
+    <ClientId>ed58519f-335b-450c-b0cb-b3aecb7ae185</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application GeometryWallSolid</Name>
+    <Assembly>GeometryWallSolid.dll</Assembly>
+    <FullClassName>GeometryWallSolid.App</FullClassName>
+    <ClientId>a71101b7-1357-4769-bc1d-f74643211f12</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

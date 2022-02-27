@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ExportDWG</Text>
+    <Description>Some description for ExportDWG</Description>
+    <Assembly>ExportDWG.dll</Assembly>
+    <FullClassName>ExportDWG.ExportDWG</FullClassName>
+    <ClientId>1167e040-b1d0-457c-ac8f-3ef25e73ff32</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ExportDWG</Name>
+    <Assembly>ExportDWG.dll</Assembly>
+    <FullClassName>ExportDWG.App</FullClassName>
+    <ClientId>8013b66b-5a46-4e87-8f77-19b1ff090d05</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

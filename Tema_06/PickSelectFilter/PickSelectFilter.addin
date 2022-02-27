@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PickSelectFilter</Text>
+    <Description>Some description for PickSelectFilter</Description>
+    <Assembly>PickSelectFilter.dll</Assembly>
+    <FullClassName>PickSelectFilter.Command</FullClassName>
+    <ClientId>6e3701e6-95e0-4639-9ebc-fb8afc7b3f4d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PickSelectFilter</Name>
+    <Assembly>PickSelectFilter.dll</Assembly>
+    <FullClassName>PickSelectFilter.App</FullClassName>
+    <ClientId>c1e45a9c-7d1e-43f3-a648-4c66948d5974</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

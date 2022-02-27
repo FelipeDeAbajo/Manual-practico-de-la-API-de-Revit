@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowStructuralInstanceUsage</Text>
+    <Description>Some description for SlowStructuralInstanceUsage</Description>
+    <Assembly>SlowStructuralInstanceUsage.dll</Assembly>
+    <FullClassName>SlowStructuralInstanceUsage.SlowStructuralInstanceUsage</FullClassName>
+    <ClientId>04e29a02-2cbf-40dd-9513-784d01cb34c3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowStructuralInstanceUsage</Name>
+    <Assembly>SlowStructuralInstanceUsage.dll</Assembly>
+    <FullClassName>SlowStructuralInstanceUsage.App</FullClassName>
+    <ClientId>f3513c12-dcd5-4a7a-8473-fd5f4392b291</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

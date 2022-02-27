@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FiltroSeleccion</Text>
+    <Description>Some description for AplicarSelec</Description>
+    <Assembly>FiltroSeleccion.dll</Assembly>
+    <FullClassName>FiltroSeleccion.FiltroSeleccion</FullClassName>
+    <ClientId>5c7ad78f-99e7-4ab5-a994-59ea49b2337c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application AplicarSelec</Name>
+    <Assembly>FiltroSeleccion.dll</Assembly>
+    <FullClassName>FiltroSeleccion.App</FullClassName>
+    <ClientId>45378129-f4e6-4ac2-a1d2-da4c5e50de95</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

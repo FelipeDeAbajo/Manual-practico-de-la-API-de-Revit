@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PostCommand</Text>
+    <Description>Some description for PostCommand</Description>
+    <Assembly>PostCommand.dll</Assembly>
+    <FullClassName>PostCommand.PostCommand</FullClassName>
+    <ClientId>f9acffae-185c-4547-9ac1-467307b13031</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PostCommand</Name>
+    <Assembly>PostCommand.dll</Assembly>
+    <FullClassName>PostCommand.App</FullClassName>
+    <ClientId>e4947247-6c6f-4452-86c3-46a46106df92</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

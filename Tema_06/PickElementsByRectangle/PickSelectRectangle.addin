@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PickElementsByRectangle</Text>
+    <Description>Some description for PickElementsByRectangle</Description>
+    <Assembly>PickElementsByRectangle.dll</Assembly>
+    <FullClassName>PickElementsByRectangle.PickSelectRectangle</FullClassName>
+    <ClientId>0c7a31e1-8c31-4e64-894a-ba0b1008fdf1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PickElementsByRectangle</Name>
+    <Assembly>PickElementsByRectangle.dll</Assembly>
+    <FullClassName>PickElementsByRectangle.App</FullClassName>
+    <ClientId>ccae9ce5-8fa1-4348-8aba-7c2cd3668b58</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

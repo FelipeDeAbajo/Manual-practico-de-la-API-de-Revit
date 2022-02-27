@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command UbicacionFamilyInstance</Text>
+    <Description>Some description for UbicacionFamilyInstance</Description>
+    <Assembly>UbicacionFamilyInstance.dll</Assembly>
+    <FullClassName>UbicacionFamilyInstance.UbicacionFamilyInstance</FullClassName>
+    <ClientId>74b7f32e-8819-4fff-9ea2-9bbc80231a7e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application UbicacionFamilyInstance</Name>
+    <Assembly>UbicacionFamilyInstance.dll</Assembly>
+    <FullClassName>UbicacionFamilyInstance.App</FullClassName>
+    <ClientId>f5a5498a-3403-46b6-9b7d-924460edd6b6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

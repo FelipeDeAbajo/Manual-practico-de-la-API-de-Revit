@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command EditarElement</Text>
+    <Description>Some description for EditarElement</Description>
+    <Assembly>EditarElement.dll</Assembly>
+    <FullClassName>EditarElement.EditarElement</FullClassName>
+    <ClientId>7b76f1e5-d73b-41b6-838c-8e284d8975b0</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application EditarElement</Name>
+    <Assembly>EditarElement.dll</Assembly>
+    <FullClassName>EditarElement.App</FullClassName>
+    <ClientId>f357325e-4cd4-4f74-814a-34537a54c0d9</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command OrientacionFamilyInstance</Text>
+    <Description>Some description for OrientacionFamilyInstance</Description>
+    <Assembly>OrientacionFamilyInstance.dll</Assembly>
+    <FullClassName>OrientacionFamilyInstance.OrientacionFamilyInstance</FullClassName>
+    <ClientId>d6ac468e-a2ad-4ef6-a862-ec5696746f6d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application OrientacionFamilyInstance</Name>
+    <Assembly>OrientacionFamilyInstance.dll</Assembly>
+    <FullClassName>OrientacionFamilyInstance.App</FullClassName>
+    <ClientId>c577087d-7d35-4147-bb5f-96c19535c17a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

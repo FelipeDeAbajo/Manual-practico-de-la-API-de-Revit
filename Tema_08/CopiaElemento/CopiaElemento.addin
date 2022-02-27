@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CopiaElemento</Text>
+    <Description>Some description for CopiaElemento</Description>
+    <Assembly>CopiaElemento.dll</Assembly>
+    <FullClassName>CopiaElemento.CopiaElemento</FullClassName>
+    <ClientId>56f110da-8a5c-42b2-9aac-ef9976c25a8d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CopiaElemento</Name>
+    <Assembly>CopiaElemento.dll</Assembly>
+    <FullClassName>CopiaElemento.App</FullClassName>
+    <ClientId>2d35b15f-c03a-4c5d-9421-6e9a6595c39a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

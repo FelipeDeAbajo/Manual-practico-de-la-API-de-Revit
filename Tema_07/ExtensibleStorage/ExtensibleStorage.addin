@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ExtensibleStorage</Text>
+    <Description>Some description for ExtensibleStorage</Description>
+    <Assembly>ExtensibleStorage.dll</Assembly>
+    <FullClassName>ExtensibleStorage.ExtensibleStorage</FullClassName>
+    <ClientId>c428f26e-79a7-44f6-906e-e2a4e1669aa1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ExtensibleStorage</Name>
+    <Assembly>ExtensibleStorage.dll</Assembly>
+    <FullClassName>ExtensibleStorage.App</FullClassName>
+    <ClientId>96e6f1a1-1e16-4056-bf6b-11e6453f92dc</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

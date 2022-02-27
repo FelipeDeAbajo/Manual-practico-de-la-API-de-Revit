@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command VisibilidadVista</Text>
+    <Description>Some description for VisibilidadVista</Description>
+    <Assembly>VisibilidadVista.dll</Assembly>
+    <FullClassName>VisibilidadVista.VisibilidadVista</FullClassName>
+    <ClientId>e57953cf-5d4e-4728-baa4-8a49436deb73</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application VisibilidadVista</Name>
+    <Assembly>VisibilidadVista.dll</Assembly>
+    <FullClassName>VisibilidadVista.App</FullClassName>
+    <ClientId>26c5351a-6ab0-45ad-9489-cac43ffcc600</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

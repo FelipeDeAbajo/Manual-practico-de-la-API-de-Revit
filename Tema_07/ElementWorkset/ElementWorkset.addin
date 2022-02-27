@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementWorkset</Text>
+    <Description>Some description for ElementWorkset</Description>
+    <Assembly>ElementWorkset.dll</Assembly>
+    <FullClassName>ElementWorkset.ElementWorkset</FullClassName>
+    <ClientId>3c26f360-6e58-4e2d-9411-67a11b066e80</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ElementWorkset</Name>
+    <Assembly>ElementWorkset.dll</Assembly>
+    <FullClassName>ElementWorkset.App</FullClassName>
+    <ClientId>96f57af0-c5ec-4aa9-80b1-eae20adbc1d5</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

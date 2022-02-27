@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ParametrosRecuperar</Text>
+    <Description>Some description for ParametrosRecuperar</Description>
+    <Assembly>ParametrosRecuperar.dll</Assembly>
+    <FullClassName>ParametrosRecuperar.ParametrosRecuperar</FullClassName>
+    <ClientId>bec65167-8dc4-440c-9e34-afad55d1832e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ParametrosRecuperar</Name>
+    <Assembly>ParametrosRecuperar.dll</Assembly>
+    <FullClassName>ParametrosRecuperar.App</FullClassName>
+    <ClientId>f5100f7d-3db3-4ecb-98f9-f5d4ccc76e21</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

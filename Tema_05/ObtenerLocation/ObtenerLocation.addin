@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ObtenerLocation</Text>
+    <Description>Some description for ObtenerLocation</Description>
+    <Assembly>ObtenerLocation.dll</Assembly>
+    <FullClassName>ObtenerLocation.ObtenerLocation</FullClassName>
+    <ClientId>630b75ea-a2e4-4312-b3d4-ef1c4c56c454</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ObtenerLocation</Name>
+    <Assembly>ObtenerLocation.dll</Assembly>
+    <FullClassName>ObtenerLocation.App</FullClassName>
+    <ClientId>0dc66983-081b-4615-a20a-418b5960804a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

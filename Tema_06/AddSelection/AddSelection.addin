@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command AddSelection</Text>
+    <Description>Some description for AddSelection</Description>
+    <Assembly>AddSelection.dll</Assembly>
+    <FullClassName>AddSelection.AddSelection</FullClassName>
+    <ClientId>d67fe305-0f25-47b3-ba73-2278bf02b43e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application AddSelection</Name>
+    <Assembly>AddSelection.dll</Assembly>
+    <FullClassName>AddSelection.App</FullClassName>
+    <ClientId>ab79b66e-1776-4f75-8059-0fbe665251a3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

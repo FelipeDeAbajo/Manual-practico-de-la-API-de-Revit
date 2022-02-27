@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command WallBoundingBoxXYZ</Text>
+    <Description>Some description for WallBoundingBoxXYZ</Description>
+    <Assembly>WallBoundingBoxXYZ.dll</Assembly>
+    <FullClassName>WallBoundingBoxXYZ.WallBoundingBoxXYZ</FullClassName>
+    <ClientId>b9462e07-6341-4ecb-a6b4-08f836961efc</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application WallBoundingBoxXYZ</Name>
+    <Assembly>WallBoundingBoxXYZ.dll</Assembly>
+    <FullClassName>WallBoundingBoxXYZ.App</FullClassName>
+    <ClientId>9790dc68-008b-4a46-89c8-5c30afd9cff9</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command BoundingBoxIsInside</Text>
+    <Description>Some description for BoundingBoxIsInside</Description>
+    <Assembly>BoundingBoxIsInside.dll</Assembly>
+    <FullClassName>BoundingBoxIsInside.BoundingBoxIsInside</FullClassName>
+    <ClientId>b7aea83a-7390-436a-ac42-b5b8846942db</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application BoundingBoxIsInside</Name>
+    <Assembly>BoundingBoxIsInside.dll</Assembly>
+    <FullClassName>BoundingBoxIsInside.App</FullClassName>
+    <ClientId>375dc70d-243f-429f-a1ec-1e9546b09122</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

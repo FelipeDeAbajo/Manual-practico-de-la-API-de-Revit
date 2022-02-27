@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementosEnLink</Text>
+    <Description>Some description for ElementosEnLink</Description>
+    <Assembly>ElementosEnLink.dll</Assembly>
+    <FullClassName>ElementosEnLink.ElementosEnLink</FullClassName>
+    <ClientId>a2f8b2e8-305d-463c-8961-c733072ce9fd</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ElementosEnLink</Name>
+    <Assembly>ElementosEnLink.dll</Assembly>
+    <FullClassName>ElementosEnLink.App</FullClassName>
+    <ClientId>08e607ad-5976-4731-8aff-33a585fd8c2c</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

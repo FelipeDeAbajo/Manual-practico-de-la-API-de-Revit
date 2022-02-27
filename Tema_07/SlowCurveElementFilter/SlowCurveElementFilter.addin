@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowCurveElementFilter</Text>
+    <Description>Some description for SlowCurveElementFilter</Description>
+    <Assembly>SlowCurveElementFilter.dll</Assembly>
+    <FullClassName>SlowCurveElementFilter.SlowCurveElementFilter</FullClassName>
+    <ClientId>8193cfde-9a12-4f39-a11e-59ff7579641e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowCurveElementFilter</Name>
+    <Assembly>SlowCurveElementFilter.dll</Assembly>
+    <FullClassName>SlowCurveElementFilter.App</FullClassName>
+    <ClientId>1a85638a-8150-4ea7-9f33-8a368a70fffc</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

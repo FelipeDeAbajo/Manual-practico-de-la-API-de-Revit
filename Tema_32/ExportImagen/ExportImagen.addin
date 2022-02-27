@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ExportImagen</Text>
+    <Description>Some description for ExportImagen</Description>
+    <Assembly>ExportImagen.dll</Assembly>
+    <FullClassName>ExportImagen.ExportImagen</FullClassName>
+    <ClientId>9806c998-133d-470c-a4be-d881f9a20908</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ExportImagen</Name>
+    <Assembly>ExportImagen.dll</Assembly>
+    <FullClassName>ExportImagen.App</FullClassName>
+    <ClientId>68c2043a-d369-49bb-a50b-b11f909bab7c</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

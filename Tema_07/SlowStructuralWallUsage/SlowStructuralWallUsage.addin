@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowStructuralWallUsage</Text>
+    <Description>Some description for SlowStructuralWallUsage</Description>
+    <Assembly>SlowStructuralWallUsage.dll</Assembly>
+    <FullClassName>SlowStructuralWallUsage.SlowStructuralWallUsage</FullClassName>
+    <ClientId>9c84381f-55a6-41d4-9c14-fef4ce8c8fdb</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowStructuralWallUsage</Name>
+    <Assembly>SlowStructuralWallUsage.dll</Assembly>
+    <FullClassName>SlowStructuralWallUsage.App</FullClassName>
+    <ClientId>0bbc8525-56cf-4ba0-b182-be294ac8116b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

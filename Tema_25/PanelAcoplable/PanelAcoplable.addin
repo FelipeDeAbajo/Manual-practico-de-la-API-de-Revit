@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PanelAcoplable</Text>
+    <Description>Some description for PanelAcoplable</Description>
+    <Assembly>PanelAcoplable.dll</Assembly>
+    <FullClassName>PanelAcoplable.PanelAcoplable</FullClassName>
+    <ClientId>394b9a84-b0c0-43b5-8228-77be3a531da7</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PanelAcoplable</Name>
+    <Assembly>PanelAcoplable.dll</Assembly>
+    <FullClassName>PanelAcoplable.App</FullClassName>
+    <ClientId>15228e97-bb48-4c53-bb34-b2ae2b572650</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

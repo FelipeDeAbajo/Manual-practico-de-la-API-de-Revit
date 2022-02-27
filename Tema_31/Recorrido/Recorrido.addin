@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Recorrido</Text>
+    <Description>Some description for Recorrido</Description>
+    <Assembly>Recorrido.dll</Assembly>
+    <FullClassName>Recorrido.Recorrido</FullClassName>
+    <ClientId>3b2f74ca-90ac-4882-b3db-456a44487fdc</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Recorrido</Name>
+    <Assembly>Recorrido.dll</Assembly>
+    <FullClassName>Recorrido.App</FullClassName>
+    <ClientId>3f48e91a-7e7e-4e8f-9f19-925ee2c77574</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

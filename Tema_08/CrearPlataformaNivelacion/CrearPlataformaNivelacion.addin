@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearPlataformaNivelacion</Text>
+    <Description>Some description for CrearPlataformaNivelacion</Description>
+    <Assembly>CrearPlataformaNivelacion.dll</Assembly>
+    <FullClassName>CrearPlataformaNivelacion.CrearPlataformaNivelacion</FullClassName>
+    <ClientId>d9b5a581-f818-4973-a4a1-225efc4ea1bd</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearPlataformaNivelacion</Name>
+    <Assembly>CrearPlataformaNivelacion.dll</Assembly>
+    <FullClassName>CrearPlataformaNivelacion.App</FullClassName>
+    <ClientId>3797f840-51e9-4bce-a02a-75f2dc0b9d79</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ConstruirFamiliaPilar</Text>
+    <Description>Some description for ConstruirFamiliaPilar</Description>
+    <Assembly>ConstruirFamiliaPilar.dll</Assembly>
+    <FullClassName>ConstruirFamiliaPilar.Command</FullClassName>
+    <ClientId>66408fd7-061d-450d-a148-da89a25e00ff</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ConstruirFamiliaPilar</Name>
+    <Assembly>ConstruirFamiliaPilar.dll</Assembly>
+    <FullClassName>ConstruirFamiliaPilar.App</FullClassName>
+    <ClientId>e7a6d49b-06f3-4173-a0b8-5ec765c3e71b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

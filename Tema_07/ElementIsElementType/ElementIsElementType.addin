@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementIsElementType</Text>
+    <Description>Some description for ElementIsElementType</Description>
+    <Assembly>ElementIsElementType.dll</Assembly>
+    <FullClassName>ElementIsElementType.ElementIsElementType</FullClassName>
+    <ClientId>f89be35c-bd37-493e-aff5-321b83c314b3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ElementIsElementType</Name>
+    <Assembly>ElementIsElementType.dll</Assembly>
+    <FullClassName>ElementIsElementType.App</FullClassName>
+    <ClientId>9e63effe-ec53-4996-9920-29504572aba3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

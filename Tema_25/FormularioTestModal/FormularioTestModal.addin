@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FormularioTestModal</Text>
+    <Description>Some description for FormularioTestModal</Description>
+    <Assembly>FormularioTestModal.dll</Assembly>
+    <FullClassName>FormularioTestModal.FormularioTestModal</FullClassName>
+    <ClientId>0ab8adb3-a3c4-44d7-ad5a-fe25f3f722d2</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FormularioTestModal</Name>
+    <Assembly>FormularioTestModal.dll</Assembly>
+    <FullClassName>FormularioTestModal.App</FullClassName>
+    <ClientId>6107a0bd-6834-4de2-845f-fcf4b185a709</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

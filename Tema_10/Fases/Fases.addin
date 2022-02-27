@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Fases</Text>
+    <Description>Some description for Fases</Description>
+    <Assembly>Fases.dll</Assembly>
+    <FullClassName>Fases.Fases</FullClassName>
+    <ClientId>84a775b7-4d28-4ae5-8123-2bc74bfd96a9</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Fases</Name>
+    <Assembly>Fases.dll</Assembly>
+    <FullClassName>Fases.App</FullClassName>
+    <ClientId>001b0566-052a-45b2-95b6-e404746b5156</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearSuelo</Text>
+    <Description>Some description for CrearSuelo</Description>
+    <Assembly>CrearSuelo.dll</Assembly>
+    <FullClassName>CrearSuelo.CrearSuelo</FullClassName>
+    <ClientId>a34d8a0c-7274-4706-8910-472b2855675a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearSuelo</Name>
+    <Assembly>CrearSuelo.dll</Assembly>
+    <FullClassName>CrearSuelo.App</FullClassName>
+    <ClientId>13c7e6dc-d8a9-49ba-baf8-41e3fd6aa529</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

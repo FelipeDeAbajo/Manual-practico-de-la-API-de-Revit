@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalisisVisualizacion", "AnalisisVisualización\AnalisisVisualizacion.csproj", "{7C188752-C03D-442E-8C5A-7B22958EECFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recorrido", "Recorrido\Recorrido.csproj", "{BCBB84C7-D37E-44B8-BB8B-5F029173F9A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C188752-C03D-442E-8C5A-7B22958EECFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C188752-C03D-442E-8C5A-7B22958EECFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C188752-C03D-442E-8C5A-7B22958EECFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C188752-C03D-442E-8C5A-7B22958EECFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBB84C7-D37E-44B8-BB8B-5F029173F9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBB84C7-D37E-44B8-BB8B-5F029173F9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBB84C7-D37E-44B8-BB8B-5F029173F9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBB84C7-D37E-44B8-BB8B-5F029173F9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {784D9873-2A3C-446A-8255-530BB407F5A1}
+	EndGlobalSection
+EndGlobal

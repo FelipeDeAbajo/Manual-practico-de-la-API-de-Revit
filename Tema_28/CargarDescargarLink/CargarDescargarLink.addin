@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CargarDescargarLink</Text>
+    <Description>Some description for CargarDescargarLink</Description>
+    <Assembly>CargarDescargarLink.dll</Assembly>
+    <FullClassName>CargarDescargarLink.CargarDescargarLink</FullClassName>
+    <ClientId>171f9708-1a90-4e20-b5d6-d18b399f1921</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CargarDescargarLink</Name>
+    <Assembly>CargarDescargarLink.dll</Assembly>
+    <FullClassName>CargarDescargarLink.App</FullClassName>
+    <ClientId>51a08be8-d9bd-466c-8a03-e6493fa5c38a</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

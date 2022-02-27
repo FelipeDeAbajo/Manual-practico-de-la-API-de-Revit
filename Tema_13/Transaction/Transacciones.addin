@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Transaction</Text>
+    <Description>Some description for Transaction</Description>
+    <Assembly>Transaction.dll</Assembly>
+    <FullClassName>Transaction.Transaction</FullClassName>
+    <ClientId>26ece20c-8203-421b-8cce-0d6d90b0a0d8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Transaction</Name>
+    <Assembly>Transaction.dll</Assembly>
+    <FullClassName>Transaction.App</FullClassName>
+    <ClientId>6030526e-308c-49cc-b37d-b87467452ec8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

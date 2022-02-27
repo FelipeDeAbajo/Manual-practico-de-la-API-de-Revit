@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DesplazarVariosElementos</Text>
+    <Description>Some description for DesplazarVariosElementos</Description>
+    <Assembly>DesplazarVariosElementos.dll</Assembly>
+    <FullClassName>DesplazarVariosElementos.DesplazarVariosElementos</FullClassName>
+    <ClientId>03337dfd-e0ed-4477-8e6c-92b96492cc75</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DesplazarVariosElementos</Name>
+    <Assembly>DesplazarVariosElementos.dll</Assembly>
+    <FullClassName>DesplazarVariosElementos.App</FullClassName>
+    <ClientId>35156e33-bf90-4d7d-992e-168c7c5c59a2</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

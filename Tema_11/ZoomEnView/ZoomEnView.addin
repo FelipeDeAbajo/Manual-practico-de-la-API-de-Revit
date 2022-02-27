@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ZoomEnView</Text>
+    <Description>Some description for ZoomEnView</Description>
+    <Assembly>ZoomEnView.dll</Assembly>
+    <FullClassName>ZoomEnView.ZoomEnView</FullClassName>
+    <ClientId>e69e5d36-791e-4202-b960-b2d48b493473</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ZoomEnView</Name>
+    <Assembly>ZoomEnView.dll</Assembly>
+    <FullClassName>ZoomEnView.App</FullClassName>
+    <ClientId>a3814a9a-452b-430f-a5b2-5ba76dbb7bf2</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

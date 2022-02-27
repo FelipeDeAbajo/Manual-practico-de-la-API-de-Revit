@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Añadir</Text>
+    <Description>Some description for Añadir</Description>
+    <Assembly>Añadir.dll</Assembly>
+    <FullClassName>Añadir.Añadir</FullClassName>
+    <ClientId>e41382ad-17da-4cb8-81ac-5dad3db4f77f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Añadir</Name>
+    <Assembly>Añadir.dll</Assembly>
+    <FullClassName>Añadir.App</FullClassName>
+    <ClientId>fce0d9e2-725f-4b0f-9d6c-abf4c7c363ed</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

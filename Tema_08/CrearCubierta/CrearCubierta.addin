@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearCubierta</Text>
+    <Description>Some description for CrearCubierta</Description>
+    <Assembly>CrearCubierta.dll</Assembly>
+    <FullClassName>CrearCubierta.CrearCubierta</FullClassName>
+    <ClientId>37fce5dc-fbd2-4600-a7ce-ca3579cf7fed</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearCubierta</Name>
+    <Assembly>CrearCubierta.dll</Assembly>
+    <FullClassName>CrearCubierta.App</FullClassName>
+    <ClientId>8ec42166-09c1-46e0-9228-954f015f3a0d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

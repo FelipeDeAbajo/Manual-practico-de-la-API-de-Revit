@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CopiarADocumento</Text>
+    <Description>Some description for CopiarADocumento</Description>
+    <Assembly>CopiarADocumento.dll</Assembly>
+    <FullClassName>CopiarADocumento.CopiarADocumento</FullClassName>
+    <ClientId>2287d8c6-1361-46c4-8625-d18b96d68de9</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CopiarADocumento</Name>
+    <Assembly>CopiarADocumento.dll</Assembly>
+    <FullClassName>CopiarADocumento.App</FullClassName>
+    <ClientId>38133d0e-25d8-4a3e-adf4-4de6bad8713d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

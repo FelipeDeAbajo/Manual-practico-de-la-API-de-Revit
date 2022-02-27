@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DirectShapeTessellated</Text>
+    <Description>Some description for DirectShapeTessellated</Description>
+    <Assembly>DirectShapeTessellated.dll</Assembly>
+    <FullClassName>DirectShapeTessellated.DirectShapeTessellated</FullClassName>
+    <ClientId>cfa481ab-e84a-45f6-bf6e-ab1af5b0225f</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DirectShapeTessellated</Name>
+    <Assembly>DirectShapeTessellated.dll</Assembly>
+    <FullClassName>DirectShapeTessellated.App</FullClassName>
+    <ClientId>665481b3-0038-4d94-94b3-4eedaf9c4fe5</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

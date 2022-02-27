@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DesplazarCreandoCurve</Text>
+    <Description>Some description for DesplazarCreandoCurve</Description>
+    <Assembly>DesplazarCreandoCurve.dll</Assembly>
+    <FullClassName>DesplazarCreandoCurve.DesplazarCreandoCurve</FullClassName>
+    <ClientId>e1ad4b5b-de97-4458-9f8b-7f0f02607256</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DesplazarCreandoCurve</Name>
+    <Assembly>DesplazarCreandoCurve.dll</Assembly>
+    <FullClassName>DesplazarCreandoCurve.App</FullClassName>
+    <ClientId>399f1b8d-d359-40a0-8ec2-7eebd6a6957c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

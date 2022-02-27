@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RrearRevision</Text>
+    <Description>Some description for RrearRevision</Description>
+    <Assembly>RrearRevision.dll</Assembly>
+    <FullClassName>RrearRevision.RrearRevision</FullClassName>
+    <ClientId>60030aa6-7176-492e-8cc6-fbe74a7229b4</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RrearRevision</Name>
+    <Assembly>RrearRevision.dll</Assembly>
+    <FullClassName>RrearRevision.App</FullClassName>
+    <ClientId>895f213c-4d4a-4476-a113-bd2e68d7a3db</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

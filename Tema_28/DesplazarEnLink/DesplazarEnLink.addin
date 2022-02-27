@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DesplazarEnLink</Text>
+    <Description>Some description for DesplazarEnLink</Description>
+    <Assembly>DesplazarEnLink.dll</Assembly>
+    <FullClassName>DesplazarEnLink.DesplazarEnLink</FullClassName>
+    <ClientId>2c086cb5-c85d-4457-8dd7-6a7ada3c8318</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DesplazarEnLink</Name>
+    <Assembly>DesplazarEnLink.dll</Assembly>
+    <FullClassName>DesplazarEnLink.App</FullClassName>
+    <ClientId>aa5975ea-729e-408c-8926-9204d53011c1</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CambiarCota</Text>
+    <Description>Some description for CambiarCota</Description>
+    <Assembly>CambiarCota.dll</Assembly>
+    <FullClassName>CambiarCota.CambiarCota</FullClassName>
+    <ClientId>f374866c-c15d-4b5a-bf8c-2f1ebe1429af</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CambiarCota</Name>
+    <Assembly>CambiarCota.dll</Assembly>
+    <FullClassName>CambiarCota.App</FullClassName>
+    <ClientId>c5bb4728-ccf5-4739-963e-c5f0d6305f75</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

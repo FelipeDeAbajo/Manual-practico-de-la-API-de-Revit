@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearNubeRevision</Text>
+    <Description>Some description for CrearNubeRevision</Description>
+    <Assembly>CrearNubeRevision.dll</Assembly>
+    <FullClassName>CrearNubeRevision.CrearNubeRevision</FullClassName>
+    <ClientId>51ab348f-7874-4074-ba59-472c6024bc47</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearNubeRevision</Name>
+    <Assembly>CrearNubeRevision.dll</Assembly>
+    <FullClassName>CrearNubeRevision.App</FullClassName>
+    <ClientId>fab4b043-19af-4ace-b93e-0af4d57be258</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

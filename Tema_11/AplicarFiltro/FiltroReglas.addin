@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command AplicarFiltro</Text>
+    <Description>Some description for AplicarFiltro</Description>
+    <Assembly>AplicarFiltro.dll</Assembly>
+    <FullClassName>AplicarFiltro.AplicarFiltro</FullClassName>
+    <ClientId>337325ec-b2fd-424c-8b06-f9c27f64503e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application AplicarFiltro</Name>
+    <Assembly>AplicarFiltro.dll</Assembly>
+    <FullClassName>AplicarFiltro.App</FullClassName>
+    <ClientId>5b28d425-5043-4103-876d-62d79d069e0d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

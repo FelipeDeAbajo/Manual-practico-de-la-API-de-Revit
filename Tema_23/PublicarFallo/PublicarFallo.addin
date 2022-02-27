@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PublicarFallo</Text>
+    <Description>Some description for PublicarFallo</Description>
+    <Assembly>PublicarFallo.dll</Assembly>
+    <FullClassName>PublicarFallo.PublicarFallo</FullClassName>
+    <ClientId>994f40a3-99e6-4fe8-be21-33c73107b337</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PublicarFallo</Name>
+    <Assembly>PublicarFallo.dll</Assembly>
+    <FullClassName>PublicarFallo.App</FullClassName>
+    <ClientId>a64fe648-6046-435b-8f90-e44939f275bc</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

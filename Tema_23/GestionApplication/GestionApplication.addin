@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command GestionApplication</Text>
+    <Description>Some description for GestionApplication</Description>
+    <Assembly>GestionApplication.dll</Assembly>
+    <FullClassName>GestionApplication.GestionApplication</FullClassName>
+    <ClientId>f22ac5bd-adae-4274-9120-df2f98e5bef7</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application GestionApplication</Name>
+    <Assembly>GestionApplication.dll</Assembly>
+    <FullClassName>GestionApplication.App</FullClassName>
+    <ClientId>5cdac94b-a6e6-45c1-bd09-8123e31b898a</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

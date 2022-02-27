@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ModificarProjectPosition</Text>
+    <Description>Some description for ModificarProjectPosition</Description>
+    <Assembly>ModificarProjectPosition.dll</Assembly>
+    <FullClassName>ModificarProjectPosition.ModificarProjectPosition</FullClassName>
+    <ClientId>6563716a-cb06-438d-a2c6-547038214760</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ModificarProjectPosition</Name>
+    <Assembly>ModificarProjectPosition.dll</Assembly>
+    <FullClassName>ModificarProjectPosition.App</FullClassName>
+    <ClientId>4c821052-c4fa-4785-9cff-10488816c479</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

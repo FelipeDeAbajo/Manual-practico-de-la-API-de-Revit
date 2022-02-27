@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CopiarAVista</Text>
+    <Description>Some description for CopiarAVista</Description>
+    <Assembly>CopiarAVista.dll</Assembly>
+    <FullClassName>CopiarAVista.CopiarAVista</FullClassName>
+    <ClientId>bfc1dac6-617e-4bac-8d9b-bac175c74476</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CopiarAVista</Name>
+    <Assembly>CopiarAVista.dll</Assembly>
+    <FullClassName>CopiarAVista.App</FullClassName>
+    <ClientId>c2d03ff0-5a7a-4695-bb40-2828d1b988e2</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

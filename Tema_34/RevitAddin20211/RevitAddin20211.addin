@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitAddin20211</Text>
+    <Description>Some description for RevitAddin20211</Description>
+    <Assembly>RevitAddin20211.dll</Assembly>
+    <FullClassName>RevitAddin20211.RevitAddin20211</FullClassName>
+    <ClientId>4e69fcdd-2359-4c0b-be0c-13df3f7695cf</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitAddin20211</Name>
+    <Assembly>RevitAddin20211.dll</Assembly>
+    <FullClassName>RevitAddin20211.App</FullClassName>
+    <ClientId>440045ed-810a-4bc8-9da3-7f0c64fb54c8</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RedifinicionCommand</Text>
+    <Description>Some description for RedifinicionCommand</Description>
+    <Assembly>RedifinicionCommand.dll</Assembly>
+    <FullClassName>RedifinicionCommand.RedifinicionCommand</FullClassName>
+    <ClientId>b193ca4e-2cb8-48a4-8c58-1b6e2d6074b9</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RedifinicionCommand</Name>
+    <Assembly>RedifinicionCommand.dll</Assembly>
+    <FullClassName>RedifinicionCommand.App</FullClassName>
+    <ClientId>b96a0bbf-7599-4c6f-9ced-9bb5ad608132</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

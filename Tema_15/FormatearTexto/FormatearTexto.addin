@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FormatearTexto</Text>
+    <Description>Some description for FormatearTexto</Description>
+    <Assembly>FormatearTexto.dll</Assembly>
+    <FullClassName>FormatearTexto.FormatearTexto</FullClassName>
+    <ClientId>73fbe801-a97d-4abf-a5e3-cf3d116f9b18</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FormatearTexto</Name>
+    <Assembly>FormatearTexto.dll</Assembly>
+    <FullClassName>FormatearTexto.App</FullClassName>
+    <ClientId>b800309d-684e-4d24-aacc-edd015a60497</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

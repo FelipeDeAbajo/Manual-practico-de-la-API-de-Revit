@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command AgregatTexto</Text>
+    <Description>Some description for AgregatTexto</Description>
+    <Assembly>AgregatTexto.dll</Assembly>
+    <FullClassName>AgregatTexto.AgregatTexto</FullClassName>
+    <ClientId>218fa5a8-e831-473a-878c-f0bc2df87702</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application AgregatTexto</Name>
+    <Assembly>AgregatTexto.dll</Assembly>
+    <FullClassName>AgregatTexto.App</FullClassName>
+    <ClientId>d04c4f43-8790-4ca5-80fe-e1af93bff16f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

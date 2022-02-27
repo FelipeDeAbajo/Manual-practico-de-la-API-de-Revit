@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command GeometryFamilyInstanceSolid</Text>
+    <Description>Some description for GeometryFamilyInstanceSolid</Description>
+    <Assembly>GeometryFamilyInstanceSolid.dll</Assembly>
+    <FullClassName>GeometryFamilyInstanceSolid.GeometryFamilyInstanceSolid</FullClassName>
+    <ClientId>8c5c7ac0-a65b-4144-89e7-a52fe5c1639e</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application GeometryFamilyInstanceSolid</Name>
+    <Assembly>GeometryFamilyInstanceSolid.dll</Assembly>
+    <FullClassName>GeometryFamilyInstanceSolid.App</FullClassName>
+    <ClientId>69776d4f-1e34-4d21-b745-17b2ad60c68a</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

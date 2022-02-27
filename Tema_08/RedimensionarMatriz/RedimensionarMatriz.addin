@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RedimensionarMatriz</Text>
+    <Description>Some description for RedimensionarMatriz</Description>
+    <Assembly>RedimensionarMatriz.dll</Assembly>
+    <FullClassName>RedimensionarMatriz.RedimensionarMatriz</FullClassName>
+    <ClientId>6418fbb4-3683-40a4-b76b-fe5b705986cf</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RedimensionarMatriz</Name>
+    <Assembly>RedimensionarMatriz.dll</Assembly>
+    <FullClassName>RedimensionarMatriz.App</FullClassName>
+    <ClientId>95d85be2-12ee-4134-8719-665a269eed36</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

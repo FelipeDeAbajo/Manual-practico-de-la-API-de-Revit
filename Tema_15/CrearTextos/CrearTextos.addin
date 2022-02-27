@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearTextos</Text>
+    <Description>Some description for CrearTextos</Description>
+    <Assembly>CrearTextos.dll</Assembly>
+    <FullClassName>CrearTextos.CrearTextos</FullClassName>
+    <ClientId>98989808-833c-46e3-84d8-d45febdf24cb</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearTextos</Name>
+    <Assembly>CrearTextos.dll</Assembly>
+    <FullClassName>CrearTextos.App</FullClassName>
+    <ClientId>e5076549-518c-4012-9600-5b1100770bf1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

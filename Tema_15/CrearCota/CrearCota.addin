@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearCota</Text>
+    <Description>Some description for CrearCota</Description>
+    <Assembly>CrearCota.dll</Assembly>
+    <FullClassName>CrearCota.CrearCota</FullClassName>
+    <ClientId>05702f0c-c9ad-452e-9caf-c19611203e2a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearCota</Name>
+    <Assembly>CrearCota.dll</Assembly>
+    <FullClassName>CrearCota.App</FullClassName>
+    <ClientId>a345485a-a8d1-46f8-b701-65ecc6394508</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

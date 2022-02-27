@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ParametrosCompartidosCreacion</Text>
+    <Description>Some description for ParametrosCompartidosCreacion</Description>
+    <Assembly>ParametrosCompartidosCreacion.dll</Assembly>
+    <FullClassName>ParametrosCompartidosCreacion.ParametrosCompartidosCreacion</FullClassName>
+    <ClientId>26dc5a7f-f529-4578-aba8-fba16ad787d1</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ParametrosCompartidosCreacion</Name>
+    <Assembly>ParametrosCompartidosCreacion.dll</Assembly>
+    <FullClassName>ParametrosCompartidosCreacion.App</FullClassName>
+    <ClientId>a11d65cc-2e5c-4423-b8a2-4f4ff1d8e97c</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

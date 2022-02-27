@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ExtraCheckBoxTaskDialog</Text>
+    <Description>Some description for ExtraCheckBoxTaskDialog</Description>
+    <Assembly>ExtraCheckBoxTaskDialog.dll</Assembly>
+    <FullClassName>ExtraCheckBoxTaskDialog.ExtraCheckBoxTaskDialog</FullClassName>
+    <ClientId>a1c394c9-8d43-4b07-b1a6-5b6c12e9b962</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ExtraCheckBoxTaskDialog</Name>
+    <Assembly>ExtraCheckBoxTaskDialog.dll</Assembly>
+    <FullClassName>ExtraCheckBoxTaskDialog.App</FullClassName>
+    <ClientId>19606a08-58ab-4387-aa62-8fb249b43669</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

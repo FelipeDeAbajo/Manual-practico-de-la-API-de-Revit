@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command EncadenarTaskDialog</Text>
+    <Description>Some description for EncadenarTaskDialog</Description>
+    <Assembly>EncadenarTaskDialog.dll</Assembly>
+    <FullClassName>EncadenarTaskDialog.EncadenarTaskDialog</FullClassName>
+    <ClientId>7afd26af-ad00-4947-90f8-98312f8eafc4</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application EncadenarTaskDialog</Name>
+    <Assembly>EncadenarTaskDialog.dll</Assembly>
+    <FullClassName>EncadenarTaskDialog.App</FullClassName>
+    <ClientId>050abb75-5223-4c02-b9d9-57dcbdee58d5</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

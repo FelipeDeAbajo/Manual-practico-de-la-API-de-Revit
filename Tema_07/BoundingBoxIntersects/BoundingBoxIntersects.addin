@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command BoundingBoxIntersects</Text>
+    <Description>Some description for BoundingBoxIntersects</Description>
+    <Assembly>BoundingBoxIntersects.dll</Assembly>
+    <FullClassName>BoundingBoxIntersects.BoundingBoxIntersects</FullClassName>
+    <ClientId>313aae2a-84e4-46a7-85be-e700613ef9b6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application BoundingBoxIntersects</Name>
+    <Assembly>BoundingBoxIntersects.dll</Assembly>
+    <FullClassName>BoundingBoxIntersects.App</FullClassName>
+    <ClientId>40da01ec-79d6-4d47-bcfc-e18ab0ab0462</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

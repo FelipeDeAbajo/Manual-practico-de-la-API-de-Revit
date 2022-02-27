@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearWorkset</Text>
+    <Description>Some description for CrearWorkset</Description>
+    <Assembly>CrearWorkset.dll</Assembly>
+    <FullClassName>CrearWorkset.CrearWorkset</FullClassName>
+    <ClientId>31c09b5c-d4ef-4ef3-881f-153865a2b1af</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearWorkset</Name>
+    <Assembly>CrearWorkset.dll</Assembly>
+    <FullClassName>CrearWorkset.App</FullClassName>
+    <ClientId>e0090986-a5fd-4035-a545-1d7fa1c2494a</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

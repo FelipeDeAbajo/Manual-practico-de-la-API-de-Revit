@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ReglasPredefinidas</Text>
+    <Description>Some description for ReglasPredefinidas</Description>
+    <Assembly>ReglasPredefinidas.dll</Assembly>
+    <FullClassName>ReglasPredefinidas.ReglasPredefinidas</FullClassName>
+    <ClientId>75f69fcd-ade6-494a-89d4-e6ed222859cc</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ReglasPredefinidas</Name>
+    <Assembly>ReglasPredefinidas.dll</Assembly>
+    <FullClassName>ReglasPredefinidas.App</FullClassName>
+    <ClientId>8557bd93-7d8f-40a1-bfae-490d6bf8e525</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementIsCurveDriven</Text>
+    <Description>Some description for ElementIsCurveDriven</Description>
+    <Assembly>ElementIsCurveDriven.dll</Assembly>
+    <FullClassName>ElementIsCurveDriven.ElementIsCurveDriven</FullClassName>
+    <ClientId>61fe0975-b89c-4f9c-8d99-7b4259ff8bd4</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ElementIsCurveDriven</Name>
+    <Assembly>ElementIsCurveDriven.dll</Assembly>
+    <FullClassName>ElementIsCurveDriven.App</FullClassName>
+    <ClientId>6a7f2d76-edc1-4eb6-b983-dc29542fb9b0</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

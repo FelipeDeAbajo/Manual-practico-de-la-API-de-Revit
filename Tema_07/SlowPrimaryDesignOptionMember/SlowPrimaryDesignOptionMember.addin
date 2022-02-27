@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowPrimaryDesignOptionMember</Text>
+    <Description>Some description for SlowPrimaryDesignOptionMember</Description>
+    <Assembly>SlowPrimaryDesignOptionMember.dll</Assembly>
+    <FullClassName>SlowPrimaryDesignOptionMember.SlowPrimaryDesignOptionMember</FullClassName>
+    <ClientId>c0037e2c-8b01-4745-8d63-7975d7cb6fa0</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowPrimaryDesignOptionMember</Name>
+    <Assembly>SlowPrimaryDesignOptionMember.dll</Assembly>
+    <FullClassName>SlowPrimaryDesignOptionMember.App</FullClassName>
+    <ClientId>6c2d1405-dd42-4c12-add4-ccb24e2318e3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

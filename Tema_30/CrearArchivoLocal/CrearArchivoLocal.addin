@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearArchivoLocal</Text>
+    <Description>Some description for CrearArchivoLocal</Description>
+    <Assembly>CrearArchivoLocal.dll</Assembly>
+    <FullClassName>CrearArchivoLocal.CrearArchivoLocal</FullClassName>
+    <ClientId>9e0d4062-34d1-4626-9f25-e2ece8dff490</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearArchivoLocal</Name>
+    <Assembly>CrearArchivoLocal.dll</Assembly>
+    <FullClassName>CrearArchivoLocal.App</FullClassName>
+    <ClientId>476e6f26-2521-475b-b2b8-0e44bf8303cb</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

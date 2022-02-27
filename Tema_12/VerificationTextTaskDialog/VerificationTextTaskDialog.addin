@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command VerificationTextTaskDialog</Text>
+    <Description>Some description for VerificationTextTaskDialog</Description>
+    <Assembly>VerificationTextTaskDialog.dll</Assembly>
+    <FullClassName>VerificationTextTaskDialog.VerificationTextTaskDialog</FullClassName>
+    <ClientId>1fc818ff-6b4a-4ae3-a5ff-91cd47ac8290</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application VerificationTextTaskDialog</Name>
+    <Assembly>VerificationTextTaskDialog.dll</Assembly>
+    <FullClassName>VerificationTextTaskDialog.App</FullClassName>
+    <ClientId>0c4138d7-da1d-443f-a261-b92963c251ec</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command TransformModelLine</Text>
+    <Description>Some description for TransformModelLine</Description>
+    <Assembly>TransformModelLine.dll</Assembly>
+    <FullClassName>TransformModelLine.TransformModelLine</FullClassName>
+    <ClientId>87c493e3-4098-4d03-9478-c04097f5ea1a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application TransformModelLine</Name>
+    <Assembly>TransformModelLine.dll</Assembly>
+    <FullClassName>TransformModelLine.App</FullClassName>
+    <ClientId>d9ba7200-bac0-434c-aab4-f567a7dc2887</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

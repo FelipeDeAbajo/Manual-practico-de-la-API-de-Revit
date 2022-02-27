@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ParametrosCompartidos</Text>
+    <Description>Some description for ParametrosCompartidos</Description>
+    <Assembly>ParametrosCompartidos.dll</Assembly>
+    <FullClassName>ParametrosCompartidos.ParametrosCompartidos</FullClassName>
+    <ClientId>29514a41-17da-4880-8347-8f588fa79ed5</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ParametrosCompartidos</Name>
+    <Assembly>ParametrosCompartidos.dll</Assembly>
+    <FullClassName>ParametrosCompartidos.App</FullClassName>
+    <ClientId>a0d4fb83-f6ec-46d5-9184-872aee6183ed</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

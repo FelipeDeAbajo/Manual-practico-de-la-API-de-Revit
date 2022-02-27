@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FormlarioWinForms</Text>
+    <Description>Some description for FormlarioWinForms</Description>
+    <Assembly>FormlarioWinForms.dll</Assembly>
+    <FullClassName>FormlarioWinForms.FormlarioWinForms</FullClassName>
+    <ClientId>211963ef-5e68-4890-8146-0b8a6e725b6c</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FormlarioWinForms</Name>
+    <Assembly>FormlarioWinForms.dll</Assembly>
+    <FullClassName>FormlarioWinForms.App</FullClassName>
+    <ClientId>1f6988a0-b6a6-4974-a256-36419f012aa5</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

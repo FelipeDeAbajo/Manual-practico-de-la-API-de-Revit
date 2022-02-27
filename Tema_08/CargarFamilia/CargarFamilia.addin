@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CargarFamilia</Text>
+    <Description>Some description for CargarFamilia</Description>
+    <Assembly>CargarFamilia.dll</Assembly>
+    <FullClassName>CargarFamilia.CargarFamilia</FullClassName>
+    <ClientId>14031e8e-8c68-47d2-8251-5c3b7dc8dc1a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CargarFamilia</Name>
+    <Assembly>CargarFamilia.dll</Assembly>
+    <FullClassName>CargarFamilia.App</FullClassName>
+    <ClientId>13efcb09-c42a-40c0-9137-80dbe4c92c6c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

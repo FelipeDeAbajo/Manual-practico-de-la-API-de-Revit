@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ReleerSincronizar</Text>
+    <Description>Some description for ReleerSincronizar</Description>
+    <Assembly>ReleerSincronizar.dll</Assembly>
+    <FullClassName>ReleerSincronizar.ReleerSincronizar</FullClassName>
+    <ClientId>7e0d4bb0-daee-4e1c-a8f6-05f9bb27f38e</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ReleerSincronizar</Name>
+    <Assembly>ReleerSincronizar.dll</Assembly>
+    <FullClassName>ReleerSincronizar.App</FullClassName>
+    <ClientId>78dd7635-cb02-445d-9e41-435794b6f5b8</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

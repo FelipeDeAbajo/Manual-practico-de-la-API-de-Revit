@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command BorrarLocation</Text>
+    <Description>Some description for BorrarLocation</Description>
+    <Assembly>BorrarLocation.dll</Assembly>
+    <FullClassName>BorrarLocation.BorrarLocation</FullClassName>
+    <ClientId>b351f1d6-c24d-43fd-80b1-74a0e0532fa5</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application BorrarLocation</Name>
+    <Assembly>BorrarLocation.dll</Assembly>
+    <FullClassName>BorrarLocation.App</FullClassName>
+    <ClientId>640931fd-c95c-4fca-8810-bc5b6c8ffc58</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

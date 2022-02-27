@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command VistaDesplazada</Text>
+    <Description>Some description for VistaDesplazada</Description>
+    <Assembly>VistaDesplazada.dll</Assembly>
+    <FullClassName>VistaDesplazada.VistaDesplazada</FullClassName>
+    <ClientId>ec5fe073-8a7e-4b0d-b287-c4cf8c60e3cd</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application VistaDesplazada</Name>
+    <Assembly>VistaDesplazada.dll</Assembly>
+    <FullClassName>VistaDesplazada.App</FullClassName>
+    <ClientId>36fed605-b7d4-4c0c-817a-d89bc5f035d6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

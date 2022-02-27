@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DuplicarVista</Text>
+    <Description>Some description for DuplicarVista</Description>
+    <Assembly>DuplicarVista.dll</Assembly>
+    <FullClassName>DuplicarVista.DuplicarVista</FullClassName>
+    <ClientId>5a55c881-a2a7-4546-9348-7931bab3bd1b</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DuplicarVista</Name>
+    <Assembly>DuplicarVista.dll</Assembly>
+    <FullClassName>DuplicarVista.App</FullClassName>
+    <ClientId>c09eeb2b-5c8c-4e00-8ac0-b5df9addf08c</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

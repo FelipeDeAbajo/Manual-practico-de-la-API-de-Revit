@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RegionRecortePoligonal</Text>
+    <Description>Some description for RegionRecortePoligonal</Description>
+    <Assembly>RegionRecortePoligonal.dll</Assembly>
+    <FullClassName>RegionRecortePoligonal.RegionRecortePoligonal</FullClassName>
+    <ClientId>05882ac5-951f-4b71-92b6-dbde2cb04859</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RegionRecortePoligonal</Name>
+    <Assembly>RegionRecortePoligonal.dll</Assembly>
+    <FullClassName>RegionRecortePoligonal.App</FullClassName>
+    <ClientId>2713ff0f-0993-43df-9df9-5a90157b1cba</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

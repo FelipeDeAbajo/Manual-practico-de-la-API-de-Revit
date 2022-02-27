@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CambiarWorkset</Text>
+    <Description>Some description for CambiarWorkset</Description>
+    <Assembly>CambiarWorkset.dll</Assembly>
+    <FullClassName>CambiarWorkset.CambiarWorkset</FullClassName>
+    <ClientId>3e91c5ef-de10-49d7-bc5b-e6b9f705262d</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CambiarWorkset</Name>
+    <Assembly>CambiarWorkset.dll</Assembly>
+    <FullClassName>CambiarWorkset.App</FullClassName>
+    <ClientId>1a65abaa-8dc1-4475-b6fb-c41968d98e29</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DesplazarCreandoLocation</Text>
+    <Description>Some description for DesplazarCreandoLocation</Description>
+    <Assembly>DesplazarCreandoLocation.dll</Assembly>
+    <FullClassName>DesplazarCreandoLocation.DesplazarCreandoLocation</FullClassName>
+    <ClientId>183d6057-642f-4ad5-9c7d-4c686003c610</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DesplazarCreandoLocation</Name>
+    <Assembly>DesplazarCreandoLocation.dll</Assembly>
+    <FullClassName>DesplazarCreandoLocation.App</FullClassName>
+    <ClientId>450e2f44-6102-43a2-ae51-32e7e329c262</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

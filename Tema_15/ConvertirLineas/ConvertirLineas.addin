@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ConvertirLineas</Text>
+    <Description>Some description for ConvertirLineas</Description>
+    <Assembly>ConvertirLineas.dll</Assembly>
+    <FullClassName>ConvertirLineas.ConvertirLineas</FullClassName>
+    <ClientId>bd588897-02f9-40fc-9575-17180d21ed79</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ConvertirLineas</Name>
+    <Assembly>ConvertirLineas.dll</Assembly>
+    <FullClassName>ConvertirLineas.App</FullClassName>
+    <ClientId>f6d9684a-abba-495a-bea7-b8cbe9ee7926</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

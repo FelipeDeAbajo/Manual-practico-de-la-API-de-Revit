@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DesplazarLocationCurve</Text>
+    <Description>Some description for DesplazarLocationCurve</Description>
+    <Assembly>DesplazarLocationCurve.dll</Assembly>
+    <FullClassName>DesplazarLocationCurve.DesplazarLocationCurve</FullClassName>
+    <ClientId>aa405b0c-700d-4b53-95c5-24d427d63810</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DesplazarLocationCurve</Name>
+    <Assembly>DesplazarLocationCurve.dll</Assembly>
+    <FullClassName>DesplazarLocationCurve.App</FullClassName>
+    <ClientId>4a962682-7cd2-48ab-a186-68119a7e25aa</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

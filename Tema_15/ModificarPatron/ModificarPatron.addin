@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ModificarPatron</Text>
+    <Description>Some description for ModificarPatron</Description>
+    <Assembly>ModificarPatron.dll</Assembly>
+    <FullClassName>ModificarPatron.ModificarPatron</FullClassName>
+    <ClientId>7c31ed5b-aeff-4d8d-9e51-6e149c5b8f64</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ModificarPatron</Name>
+    <Assembly>ModificarPatron.dll</Assembly>
+    <FullClassName>ModificarPatron.App</FullClassName>
+    <ClientId>95148bf3-d93f-4c63-8f1e-2292405a78d1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

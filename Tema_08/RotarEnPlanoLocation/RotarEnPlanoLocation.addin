@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RotarEnPlanoLocation</Text>
+    <Description>Some description for RotarEnPlanoLocation</Description>
+    <Assembly>RotarEnPlanoLocation.dll</Assembly>
+    <FullClassName>RotarEnPlanoLocation.RotarEnPlanoLocation</FullClassName>
+    <ClientId>86eded79-8165-4b1c-b0d3-ddcb381aeac0</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RotarEnPlanoLocation</Name>
+    <Assembly>RotarEnPlanoLocation.dll</Assembly>
+    <FullClassName>RotarEnPlanoLocation.App</FullClassName>
+    <ClientId>1864f64c-9331-4f5f-8ba0-60de7d6d6836</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

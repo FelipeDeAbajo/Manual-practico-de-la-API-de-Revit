@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command AnalisisVisualización</Text>
+    <Description>Some description for AnalisisVisualización</Description>
+    <Assembly>AnalisisVisualización.dll</Assembly>
+    <FullClassName>AnalisisVisualización.AnalisisVisualización</FullClassName>
+    <ClientId>a3cf307a-5866-429d-a649-9f85c8ba1614</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application AnalisisVisualización</Name>
+    <Assembly>AnalisisVisualización.dll</Assembly>
+    <FullClassName>AnalisisVisualización.App</FullClassName>
+    <ClientId>604d98d3-9f7a-4eae-bab0-a50aa0aa8977</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

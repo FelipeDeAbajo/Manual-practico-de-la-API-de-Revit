@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RotarTexto</Text>
+    <Description>Some description for RotarTexto</Description>
+    <Assembly>RotarTexto.dll</Assembly>
+    <FullClassName>RotarTexto.RotarTexto</FullClassName>
+    <ClientId>6379e2a6-e0e4-4013-af9f-f90168f31a51</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RotarTexto</Name>
+    <Assembly>RotarTexto.dll</Assembly>
+    <FullClassName>RotarTexto.App</FullClassName>
+    <ClientId>47b03978-f319-46d2-865d-865d29089ad2</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

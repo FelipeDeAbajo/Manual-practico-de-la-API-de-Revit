@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowElementIntersectsFilter</Text>
+    <Description>Some description for SlowElementIntersectsFilter</Description>
+    <Assembly>SlowElementIntersectsFilter.dll</Assembly>
+    <FullClassName>SlowElementIntersectsFilter.SlowElementIntersectsFilter</FullClassName>
+    <ClientId>bd692fec-aa1a-4c4c-9b32-c4cef290d53a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowElementIntersectsFilter</Name>
+    <Assembly>SlowElementIntersectsFilter.dll</Assembly>
+    <FullClassName>SlowElementIntersectsFilter.App</FullClassName>
+    <ClientId>709db06b-2fd6-421e-a0c7-d86a6846965f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

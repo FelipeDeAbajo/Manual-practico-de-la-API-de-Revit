@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DesplazarLocationPoint</Text>
+    <Description>Some description for DesplazarLocationPoint</Description>
+    <Assembly>DesplazarLocationPoint.dll</Assembly>
+    <FullClassName>DesplazarLocationPoint.DesplazarLocationPoint</FullClassName>
+    <ClientId>15e6fb51-dabc-4bca-82d2-ba986b168f6c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DesplazarLocationPoint</Name>
+    <Assembly>DesplazarLocationPoint.dll</Assembly>
+    <FullClassName>DesplazarLocationPoint.App</FullClassName>
+    <ClientId>490aa843-10c5-4424-b18c-63870f5985cb</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

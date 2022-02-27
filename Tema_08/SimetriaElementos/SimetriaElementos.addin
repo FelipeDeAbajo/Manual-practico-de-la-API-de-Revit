@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SimetriaElementos</Text>
+    <Description>Some description for SimetriaElementos</Description>
+    <Assembly>SimetriaElementos.dll</Assembly>
+    <FullClassName>SimetriaElementos.SimetriaElementos</FullClassName>
+    <ClientId>bfa9e1ca-4615-4610-a6ff-a416dec0359a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SimetriaElementos</Name>
+    <Assembly>SimetriaElementos.dll</Assembly>
+    <FullClassName>SimetriaElementos.App</FullClassName>
+    <ClientId>c6f214be-7dbc-4008-a7cc-424c4caef791</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

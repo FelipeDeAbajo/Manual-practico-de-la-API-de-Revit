@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowElementParameter</Text>
+    <Description>Some description for SlowElementParameter</Description>
+    <Assembly>SlowElementParameter.dll</Assembly>
+    <FullClassName>SlowElementParameter.SlowElementParameter</FullClassName>
+    <ClientId>ea5a6528-ee44-42e0-b12d-fb58ddfd4a16</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowElementParameter</Name>
+    <Assembly>SlowElementParameter.dll</Assembly>
+    <FullClassName>SlowElementParameter.App</FullClassName>
+    <ClientId>a11d0cbe-485a-4d64-9547-973f98e762b5</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowSelectableInView</Text>
+    <Description>Some description for SlowSelectableInView</Description>
+    <Assembly>SlowSelectableInView.dll</Assembly>
+    <FullClassName>SlowSelectableInView.SlowSelectableInView</FullClassName>
+    <ClientId>5d6a325e-cad9-4dd3-bbf2-05bbc105e385</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowSelectableInView</Name>
+    <Assembly>SlowSelectableInView.dll</Assembly>
+    <FullClassName>SlowSelectableInView.App</FullClassName>
+    <ClientId>495e5292-035e-41a6-833e-3ebb97db1387</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

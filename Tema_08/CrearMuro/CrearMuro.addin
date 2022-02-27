@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearMuro</Text>
+    <Description>Some description for CrearMuro</Description>
+    <Assembly>CrearMuro.dll</Assembly>
+    <FullClassName>CrearMuro.CrearMuro</FullClassName>
+    <ClientId>4ac8e3ae-8822-42fa-b828-f96652c87f1e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearMuro</Name>
+    <Assembly>CrearMuro.dll</Assembly>
+    <FullClassName>CrearMuro.App</FullClassName>
+    <ClientId>3ae1d2f8-cf31-4a45-a73f-8bce25192725</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

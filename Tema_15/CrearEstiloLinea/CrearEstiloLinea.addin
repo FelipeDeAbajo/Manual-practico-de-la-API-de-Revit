@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearEstiloLinea</Text>
+    <Description>Some description for CrearEstiloLinea</Description>
+    <Assembly>CrearEstiloLinea.dll</Assembly>
+    <FullClassName>CrearEstiloLinea.CrearEstiloLinea</FullClassName>
+    <ClientId>ee2d52ca-f11a-41ce-99ac-216ee2c3294f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearEstiloLinea</Name>
+    <Assembly>CrearEstiloLinea.dll</Assembly>
+    <FullClassName>CrearEstiloLinea.App</FullClassName>
+    <ClientId>523874f7-6bbb-4b18-9613-c82342642c91</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

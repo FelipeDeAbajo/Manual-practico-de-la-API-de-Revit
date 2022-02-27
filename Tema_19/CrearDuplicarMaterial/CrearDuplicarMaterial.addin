@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearDuplicarMaterial</Text>
+    <Description>Some description for CrearDuplicarMaterial</Description>
+    <Assembly>CrearDuplicarMaterial.dll</Assembly>
+    <FullClassName>CrearDuplicarMaterial.CrearDuplicarMaterial</FullClassName>
+    <ClientId>267acb7d-5551-43d9-a592-3ac15e30bf6b</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearDuplicarMaterial</Name>
+    <Assembly>CrearDuplicarMaterial.dll</Assembly>
+    <FullClassName>CrearDuplicarMaterial.App</FullClassName>
+    <ClientId>fd89c577-ea2c-434c-a4c3-044c15b3a9b3</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

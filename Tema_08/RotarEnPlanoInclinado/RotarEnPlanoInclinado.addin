@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RotarEnPlanoInclinado</Text>
+    <Description>Some description for RotarEnPlanoInclinado</Description>
+    <Assembly>RotarEnPlanoInclinado.dll</Assembly>
+    <FullClassName>RotarEnPlanoInclinado.RotarEnPlanoInclinado</FullClassName>
+    <ClientId>86b9f7e1-1b6f-432e-a1ed-c4563204baf8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RotarEnPlanoInclinado</Name>
+    <Assembly>RotarEnPlanoInclinado.dll</Assembly>
+    <FullClassName>RotarEnPlanoInclinado.App</FullClassName>
+    <ClientId>d8821758-386c-4546-9071-8049ddbf2013</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

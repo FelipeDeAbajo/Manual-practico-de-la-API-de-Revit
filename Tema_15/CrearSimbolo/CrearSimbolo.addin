@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearSimbolo</Text>
+    <Description>Some description for CrearSimbolo</Description>
+    <Assembly>CrearSimbolo.dll</Assembly>
+    <FullClassName>CrearSimbolo.CrearSimbolo</FullClassName>
+    <ClientId>d09002fa-1ea8-4124-a9af-34f7e6be0f43</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearSimbolo</Name>
+    <Assembly>CrearSimbolo.dll</Assembly>
+    <FullClassName>CrearSimbolo.App</FullClassName>
+    <ClientId>da16fb7a-d321-4ae6-8ea7-0b59a8abb857</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

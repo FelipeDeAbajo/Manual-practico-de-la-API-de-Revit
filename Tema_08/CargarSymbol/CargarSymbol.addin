@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CargarSymbol</Text>
+    <Description>Some description for CargarSymbol</Description>
+    <Assembly>CargarSymbol.dll</Assembly>
+    <FullClassName>CargarSymbol.CargarSymbol</FullClassName>
+    <ClientId>2c374c2e-529a-44e9-9ce5-9d8d71101757</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CargarSymbol</Name>
+    <Assembly>CargarSymbol.dll</Assembly>
+    <FullClassName>CargarSymbol.App</FullClassName>
+    <ClientId>f95fe20b-7d5d-42e1-bfb2-ef40dd735043</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

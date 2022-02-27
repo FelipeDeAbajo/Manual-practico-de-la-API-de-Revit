@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command LogicalAnd</Text>
+    <Description>Some description for LogicalAnd</Description>
+    <Assembly>LogicalAnd.dll</Assembly>
+    <FullClassName>LogicalAnd.LogicalAnd</FullClassName>
+    <ClientId>253980e5-3bc0-4ade-8d98-c5bea1873bdd</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application LogicalAnd</Name>
+    <Assembly>LogicalAnd.dll</Assembly>
+    <FullClassName>LogicalAnd.App</FullClassName>
+    <ClientId>80fdb54e-6a6f-49ed-a3c5-71fe406958d1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

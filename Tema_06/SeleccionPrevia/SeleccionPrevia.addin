@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SeleccionPrevia</Text>
+    <Description>Some description for SeleccionPrevia</Description>
+    <Assembly>SeleccionPrevia.dll</Assembly>
+    <FullClassName>SeleccionPrevia.Command</FullClassName>
+    <ClientId>4836aed8-3794-43ec-a233-04c953b42d86</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SeleccionPrevia</Name>
+    <Assembly>SeleccionPrevia.dll</Assembly>
+    <FullClassName>SeleccionPrevia.App</FullClassName>
+    <ClientId>c775bb3b-664b-40e3-a708-e924cca82a5a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

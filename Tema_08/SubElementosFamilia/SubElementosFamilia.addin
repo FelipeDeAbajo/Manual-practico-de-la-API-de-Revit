@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SubElementosFamilia</Text>
+    <Description>Some description for SubElementosFamilia</Description>
+    <Assembly>SubElementosFamilia.dll</Assembly>
+    <FullClassName>SubElementosFamilia.SubElementosFamilia</FullClassName>
+    <ClientId>d90258fe-3154-43f0-ada4-af9188b084a8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SubElementosFamilia</Name>
+    <Assembly>SubElementosFamilia.dll</Assembly>
+    <FullClassName>SubElementosFamilia.App</FullClassName>
+    <ClientId>ef498724-e9a1-48b5-b6ad-15415195543d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

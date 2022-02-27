@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementOwnerView</Text>
+    <Description>Some description for ElementOwnerView</Description>
+    <Assembly>ElementOwnerView.dll</Assembly>
+    <FullClassName>ElementOwnerView.ElementOwnerView</FullClassName>
+    <ClientId>6aba8ca4-61d6-4f3d-94b7-143e854eff0b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ElementOwnerView</Name>
+    <Assembly>ElementOwnerView.dll</Assembly>
+    <FullClassName>ElementOwnerView.App</FullClassName>
+    <ClientId>7b5ebf97-f56d-41df-b448-8137148a561d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command AlinearAlementos</Text>
+    <Description>Some description for AlinearAlementos</Description>
+    <Assembly>AlinearAlementos.dll</Assembly>
+    <FullClassName>AlinearAlementos.AlinearAlementos</FullClassName>
+    <ClientId>287ee18b-f1b8-4a9a-96b6-ac7326892362</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application AlinearAlementos</Name>
+    <Assembly>AlinearAlementos.dll</Assembly>
+    <FullClassName>AlinearAlementos.App</FullClassName>
+    <ClientId>c868ddc3-0d31-485b-9f21-efd0694c7cb4</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

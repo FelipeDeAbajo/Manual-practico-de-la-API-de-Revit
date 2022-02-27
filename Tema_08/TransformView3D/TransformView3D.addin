@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command TransformView3D</Text>
+    <Description>Some description for TransformView3D</Description>
+    <Assembly>TransformView3D.dll</Assembly>
+    <FullClassName>TransformView3D.TransformView3D</FullClassName>
+    <ClientId>689c945f-4d9c-4e4f-b4cd-e8c5b5854292</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application TransformView3D</Name>
+    <Assembly>TransformView3D.dll</Assembly>
+    <FullClassName>TransformView3D.App</FullClassName>
+    <ClientId>cdc4a116-19fb-47ef-ba2c-e684b5242cbc</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

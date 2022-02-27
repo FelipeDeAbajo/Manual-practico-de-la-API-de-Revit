@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FamilySymbol</Text>
+    <Description>Some description for FamilySymbol</Description>
+    <Assembly>FamilySymbol.dll</Assembly>
+    <FullClassName>FamilySymbol.FamilySymbol</FullClassName>
+    <ClientId>b149a35f-34c8-4643-a7c9-f9aa4049b024</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FamilySymbol</Name>
+    <Assembly>FamilySymbol.dll</Assembly>
+    <FullClassName>FamilySymbol.App</FullClassName>
+    <ClientId>9519a2dd-04dd-43e0-a75e-de0ba760869f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

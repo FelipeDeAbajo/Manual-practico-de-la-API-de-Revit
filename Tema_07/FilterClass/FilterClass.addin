@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FilterClass</Text>
+    <Description>Some description for FilterClass</Description>
+    <Assembly>FilterClass.dll</Assembly>
+    <FullClassName>FilterClass.FilterClass</FullClassName>
+    <ClientId>0afa832c-ab46-4699-9373-ba9162f408fd</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FilterClass</Name>
+    <Assembly>FilterClass.dll</Assembly>
+    <FullClassName>FilterClass.App</FullClassName>
+    <ClientId>e02b1b12-c7a5-452c-9a04-ee9dd850d564</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

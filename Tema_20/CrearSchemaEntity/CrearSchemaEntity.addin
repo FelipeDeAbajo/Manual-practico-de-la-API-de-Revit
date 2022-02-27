@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearSchemaEntity</Text>
+    <Description>Some description for CrearSchemaEntity</Description>
+    <Assembly>CrearSchemaEntity.dll</Assembly>
+    <FullClassName>CrearSchemaEntity.CrearSchemaEntity</FullClassName>
+    <ClientId>032ac22f-4ed7-48f2-a4df-5ea3bd0f47e0</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearSchemaEntity</Name>
+    <Assembly>CrearSchemaEntity.dll</Assembly>
+    <FullClassName>CrearSchemaEntity.App</FullClassName>
+    <ClientId>f6164115-1f1a-4725-8d7a-d1af18f6e7e8</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

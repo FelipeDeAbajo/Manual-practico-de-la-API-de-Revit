@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearEtiqueta</Text>
+    <Description>Some description for CrearEtiqueta</Description>
+    <Assembly>CrearEtiqueta.dll</Assembly>
+    <FullClassName>CrearEtiqueta.CrearEtiqueta</FullClassName>
+    <ClientId>0d67e09f-4c6d-41ab-8b60-e595a4a0cf58</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearEtiqueta</Name>
+    <Assembly>CrearEtiqueta.dll</Assembly>
+    <FullClassName>CrearEtiqueta.App</FullClassName>
+    <ClientId>5fc03545-b224-48ff-8497-aea0695ccacc</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

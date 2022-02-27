@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command AtenuacionLejana</Text>
+    <Description>Some description for AtenuacionLejana</Description>
+    <Assembly>AtenuacionLejana.dll</Assembly>
+    <FullClassName>AtenuacionLejana.AtenuacionLejana</FullClassName>
+    <ClientId>c47c88dd-ec39-4e6a-bfd6-3f435bc2b5d1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application AtenuacionLejana</Name>
+    <Assembly>AtenuacionLejana.dll</Assembly>
+    <FullClassName>AtenuacionLejana.App</FullClassName>
+    <ClientId>c82f127a-2097-4bb0-828c-809cd18d0a57</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

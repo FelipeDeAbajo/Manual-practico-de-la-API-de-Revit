@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowStructuralMaterialType</Text>
+    <Description>Some description for SlowStructuralMaterialType</Description>
+    <Assembly>SlowStructuralMaterialType.dll</Assembly>
+    <FullClassName>SlowStructuralMaterialType.SlowStructuralMaterialType</FullClassName>
+    <ClientId>d2cc67d6-893f-4d68-9988-564576898ece</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowStructuralMaterialType</Name>
+    <Assembly>SlowStructuralMaterialType.dll</Assembly>
+    <FullClassName>SlowStructuralMaterialType.App</FullClassName>
+    <ClientId>63967c21-106b-4f43-8a43-826eab05ae42</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

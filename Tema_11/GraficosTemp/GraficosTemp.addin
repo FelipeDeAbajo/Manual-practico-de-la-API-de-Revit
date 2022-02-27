@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command GraficosTemp</Text>
+    <Description>Some description for GraficosTemp</Description>
+    <Assembly>GraficosTemp.dll</Assembly>
+    <FullClassName>GraficosTemp.GraficosTemp</FullClassName>
+    <ClientId>d26c6403-90e3-41d7-85cf-b68a8428030a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application GraficosTemp</Name>
+    <Assembly>GraficosTemp.dll</Assembly>
+    <FullClassName>GraficosTemp.App</FullClassName>
+    <ClientId>3ef4f029-6515-44dd-ac52-b988083362a3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

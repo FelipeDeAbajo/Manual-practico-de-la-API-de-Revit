@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command UnidadesPre2021</Text>
+    <Description>Some description for UnidadesPre2021</Description>
+    <Assembly>UnidadesPre2021.dll</Assembly>
+    <FullClassName>UnidadesPre2021.UnidadesPre2021</FullClassName>
+    <ClientId>a4a65f5d-a110-4e25-88dc-e0c5a521dce5</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application UnidadesPre2021</Name>
+    <Assembly>UnidadesPre2021.dll</Assembly>
+    <FullClassName>UnidadesPre2021.App</FullClassName>
+    <ClientId>9140519b-bf35-40df-bd72-3c69d1ff0d13</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DesplazarElementos</Text>
+    <Description>Some description for DesplazarElementos</Description>
+    <Assembly>DesplazarElementos.dll</Assembly>
+    <FullClassName>DesplazarElementos.DesplazarElementos</FullClassName>
+    <ClientId>3344fe73-59fd-4307-aae8-3e0e559dd1d4</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DesplazarElementos</Name>
+    <Assembly>DesplazarElementos.dll</Assembly>
+    <FullClassName>DesplazarElementos.App</FullClassName>
+    <ClientId>a737bbef-d9bb-4d08-bcae-4edef1c23ac0</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

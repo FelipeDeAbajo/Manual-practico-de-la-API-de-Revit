@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DirectShapeDirecto</Text>
+    <Description>Some description for DirectShapeDirecto</Description>
+    <Assembly>DirectShapeDirecto.dll</Assembly>
+    <FullClassName>DirectShapeDirecto.DirectShapeDirecto</FullClassName>
+    <ClientId>93e31440-daaf-4d50-80a3-7507bd412e45</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DirectShapeDirecto</Name>
+    <Assembly>DirectShapeDirecto.dll</Assembly>
+    <FullClassName>DirectShapeDirecto.App</FullClassName>
+    <ClientId>134c8e9a-e1f2-4fee-b233-46259a48e658</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

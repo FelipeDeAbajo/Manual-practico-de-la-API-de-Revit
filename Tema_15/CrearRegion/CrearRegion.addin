@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearRegion</Text>
+    <Description>Some description for CrearRegion</Description>
+    <Assembly>CrearRegion.dll</Assembly>
+    <FullClassName>CrearRegion.CrearRegion</FullClassName>
+    <ClientId>d55a593f-8d95-4694-854a-0715f0bb7196</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearRegion</Name>
+    <Assembly>CrearRegion.dll</Assembly>
+    <FullClassName>CrearRegion.App</FullClassName>
+    <ClientId>27d38db2-bbf3-424d-908e-8c7366966198</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

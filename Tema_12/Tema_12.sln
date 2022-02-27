@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncadenarTaskDialog", "EncadenarTaskDialog\EncadenarTaskDialog.csproj", "{44B1A2CD-326F-454D-9740-02BB475D2609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraCheckBoxTaskDialog", "ExtraCheckBoxTaskDialog\ExtraCheckBoxTaskDialog.csproj", "{F20C295A-977D-49BC-B768-7A580ABB5EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerificationTextTaskDialog", "VerificationTextTaskDialog\VerificationTextTaskDialog.csproj", "{CA030BF6-A396-412E-B857-994AC07DE751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarTaskDialog", "ProgressBarTaskDialog\ProgressBarTaskDialog.csproj", "{543D038A-115A-45F7-804A-1177726922EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoMostrarMasTaskDialog", "NoMostrarMasTaskDialog\NoMostrarMasTaskDialog.csproj", "{9B22952F-A4CD-4C51-B5AD-36AF27145210}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44B1A2CD-326F-454D-9740-02BB475D2609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B1A2CD-326F-454D-9740-02BB475D2609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B1A2CD-326F-454D-9740-02BB475D2609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B1A2CD-326F-454D-9740-02BB475D2609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20C295A-977D-49BC-B768-7A580ABB5EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20C295A-977D-49BC-B768-7A580ABB5EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20C295A-977D-49BC-B768-7A580ABB5EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20C295A-977D-49BC-B768-7A580ABB5EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA030BF6-A396-412E-B857-994AC07DE751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA030BF6-A396-412E-B857-994AC07DE751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA030BF6-A396-412E-B857-994AC07DE751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA030BF6-A396-412E-B857-994AC07DE751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543D038A-115A-45F7-804A-1177726922EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543D038A-115A-45F7-804A-1177726922EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543D038A-115A-45F7-804A-1177726922EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543D038A-115A-45F7-804A-1177726922EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B22952F-A4CD-4C51-B5AD-36AF27145210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B22952F-A4CD-4C51-B5AD-36AF27145210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B22952F-A4CD-4C51-B5AD-36AF27145210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B22952F-A4CD-4C51-B5AD-36AF27145210}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4764907-44FC-4216-A69D-1B54E65CEB62}
+	EndGlobalSection
+EndGlobal

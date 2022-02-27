@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Rejillas</Text>
+    <Description>Some description for Rejillas</Description>
+    <Assembly>Rejillas.dll</Assembly>
+    <FullClassName>Rejillas.Rejillas</FullClassName>
+    <ClientId>ba21f7ea-8b9e-49bd-8a6c-c4ff1dcdd3ef</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Rejillas</Name>
+    <Assembly>Rejillas.dll</Assembly>
+    <FullClassName>Rejillas.App</FullClassName>
+    <ClientId>a580325b-5255-4748-bbdc-9cd493ed8c0c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

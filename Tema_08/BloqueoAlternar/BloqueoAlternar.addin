@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command BloqueoAlternar</Text>
+    <Description>Some description for BloqueoAlternar</Description>
+    <Assembly>BloqueoAlternar.dll</Assembly>
+    <FullClassName>BloqueoAlternar.BloqueoAlternar</FullClassName>
+    <ClientId>c9921f44-a99d-4225-ad46-cab3f50ce08f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application BloqueoAlternar</Name>
+    <Assembly>BloqueoAlternar.dll</Assembly>
+    <FullClassName>BloqueoAlternar.App</FullClassName>
+    <ClientId>7bba8669-e511-43fb-986c-25542beb9981</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

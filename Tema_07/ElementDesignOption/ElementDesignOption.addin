@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementDesignOption</Text>
+    <Description>Some description for ElementDesignOption</Description>
+    <Assembly>ElementDesignOption.dll</Assembly>
+    <FullClassName>ElementDesignOption.ElementDesignOption</FullClassName>
+    <ClientId>70c6bdb1-9e69-47a2-82bd-de88fc3b0f96</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ElementDesignOption</Name>
+    <Assembly>ElementDesignOption.dll</Assembly>
+    <FullClassName>ElementDesignOption.App</FullClassName>
+    <ClientId>a93f49bc-9aa2-45c3-8373-4bd39a7178ba</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

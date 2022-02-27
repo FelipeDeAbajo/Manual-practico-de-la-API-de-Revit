@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command VistaModos</Text>
+    <Description>Some description for VistaModos</Description>
+    <Assembly>VistaModos.dll</Assembly>
+    <FullClassName>VistaModos.VistaModos</FullClassName>
+    <ClientId>25080b1a-c082-4915-bd02-a6860a1efa11</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application VistaModos</Name>
+    <Assembly>VistaModos.dll</Assembly>
+    <FullClassName>VistaModos.App</FullClassName>
+    <ClientId>19a68380-bb59-4f00-9431-7e39b434b8e2</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

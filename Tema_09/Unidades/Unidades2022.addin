@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Unidades2022</Text>
+    <Description>Some description for Unidades2022</Description>
+    <Assembly>Unidades.dll</Assembly>
+    <FullClassName>Unidades2022.Unidades2022</FullClassName>
+    <ClientId>78f55b7a-d276-4e3f-aa6c-82a26988aa9e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Unidades2022</Name>
+    <Assembly>Unidades.dll</Assembly>
+    <FullClassName>Unidades2022.App</FullClassName>
+    <ClientId>67d42b45-afe3-425d-8f00-f7433138db1e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

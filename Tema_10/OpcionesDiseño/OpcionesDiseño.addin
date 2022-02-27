@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command OpcionesDiseño</Text>
+    <Description>Some description for OpcionesDiseño</Description>
+    <Assembly>OpcionesDiseño.dll</Assembly>
+    <FullClassName>OpcionesDiseño.OpcionesDiseño</FullClassName>
+    <ClientId>25d20622-e577-40b0-957d-78efc3ff0313</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application OpcionesDiseño</Name>
+    <Assembly>OpcionesDiseño.dll</Assembly>
+    <FullClassName>OpcionesDiseño.App</FullClassName>
+    <ClientId>6c214de1-8be0-4146-8e19-cf2c926cd3a1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

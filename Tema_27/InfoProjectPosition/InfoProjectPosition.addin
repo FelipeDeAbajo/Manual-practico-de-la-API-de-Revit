@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ActiveProjectLocation</Text>
+    <Description>Some description for ActiveProjectLocation</Description>
+    <Assembly>ActiveProjectLocation.dll</Assembly>
+    <FullClassName>ActiveProjectLocation.ActiveProjectLocation</FullClassName>
+    <ClientId>1f0431d9-16c2-4f76-abb1-5c9f25252bfd</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ActiveProjectLocation</Name>
+    <Assembly>ActiveProjectLocation.dll</Assembly>
+    <FullClassName>ActiveProjectLocation.App</FullClassName>
+    <ClientId>d761e535-b527-4c6c-acc9-6ab00c36b6a3</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

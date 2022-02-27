@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearDetailCurve</Text>
+    <Description>Some description for CrearDetailCurve</Description>
+    <Assembly>CrearDetailCurve.dll</Assembly>
+    <FullClassName>CrearDetailCurve.CrearDetailCurve</FullClassName>
+    <ClientId>b35a6b28-63e5-477f-8c82-6f0330e9fdbb</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearDetailCurve</Name>
+    <Assembly>CrearDetailCurve.dll</Assembly>
+    <FullClassName>CrearDetailCurve.App</FullClassName>
+    <ClientId>437505c1-9075-41eb-bd6c-7c54bd7bafe8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

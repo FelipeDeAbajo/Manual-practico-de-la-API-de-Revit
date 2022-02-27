@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowAreaTagFilter</Text>
+    <Description>Some description for SlowAreaTagFilter</Description>
+    <Assembly>SlowAreaTagFilter.dll</Assembly>
+    <FullClassName>SlowAreaTagFilter.SlowAreaTagFilter</FullClassName>
+    <ClientId>25365127-a853-49ae-84d8-4c3b90dbe82c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowAreaTagFilter</Name>
+    <Assembly>SlowAreaTagFilter.dll</Assembly>
+    <FullClassName>SlowAreaTagFilter.App</FullClassName>
+    <ClientId>769a98ac-ecf7-4b60-85dc-d0a319e84f28</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

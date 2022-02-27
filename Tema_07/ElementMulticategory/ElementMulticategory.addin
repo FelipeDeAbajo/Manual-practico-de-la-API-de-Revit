@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementMulticategory</Text>
+    <Description>Some description for ElementMulticategory</Description>
+    <Assembly>ElementMulticategory.dll</Assembly>
+    <FullClassName>ElementMulticategory.ElementMulticategory</FullClassName>
+    <ClientId>249f1e83-9b5a-4ca3-b582-f14b04870efb</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ElementMulticategory</Name>
+    <Assembly>ElementMulticategory.dll</Assembly>
+    <FullClassName>ElementMulticategory.App</FullClassName>
+    <ClientId>05133222-9d16-473b-a6ba-49317752d615</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

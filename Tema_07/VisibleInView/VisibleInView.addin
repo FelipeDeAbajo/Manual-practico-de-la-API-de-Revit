@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command VisibleInView</Text>
+    <Description>Some description for VisibleInView</Description>
+    <Assembly>VisibleInView.dll</Assembly>
+    <FullClassName>VisibleInView.VisibleInView</FullClassName>
+    <ClientId>5a984330-7b21-4a8f-962f-e00f3d419acc</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application VisibleInView</Name>
+    <Assembly>VisibleInView.dll</Assembly>
+    <FullClassName>VisibleInView.App</FullClassName>
+    <ClientId>febd769b-41fe-4a24-9184-7213bb217d0a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

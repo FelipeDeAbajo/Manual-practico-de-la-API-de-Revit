@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command BorrarObjetos</Text>
+    <Description>Some description for BorrarObjetos</Description>
+    <Assembly>BorrarObjetos.dll</Assembly>
+    <FullClassName>BorrarObjetos.BorrarObjetos</FullClassName>
+    <ClientId>e4ab91ca-7e6f-4f73-9081-e2d66ebd8a76</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application BorrarObjetos</Name>
+    <Assembly>BorrarObjetos.dll</Assembly>
+    <FullClassName>BorrarObjetos.App</FullClassName>
+    <ClientId>07908f41-b329-4c52-9dc8-e4c952ccbf99</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

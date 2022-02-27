@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command LogicalOR</Text>
+    <Description>Some description for LogicalOR</Description>
+    <Assembly>LogicalOR.dll</Assembly>
+    <FullClassName>LogicalOR.LogicalOR</FullClassName>
+    <ClientId>23d25932-c6ba-4bab-a13b-f9d23258f216</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application LogicalOR</Name>
+    <Assembly>LogicalOR.dll</Assembly>
+    <FullClassName>LogicalOR.App</FullClassName>
+    <ClientId>16af83c8-e509-4617-b3af-4d5d55e59d59</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

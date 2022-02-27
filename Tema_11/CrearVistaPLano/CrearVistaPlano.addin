@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearVistaPLano</Text>
+    <Description>Some description for CrearVistaPLano</Description>
+    <Assembly>CrearVistaPLano.dll</Assembly>
+    <FullClassName>CrearVistaPLano.CrearVistaPLano</FullClassName>
+    <ClientId>75994d12-ea0e-4823-a44d-d22dae52ad86</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearVistaPLano</Name>
+    <Assembly>CrearVistaPLano.dll</Assembly>
+    <FullClassName>CrearVistaPLano.App</FullClassName>
+    <ClientId>22ee0e4b-2e15-40a7-ab1e-6cd7d17f5b03</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

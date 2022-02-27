@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application Ribbon</Name>
+    <Assembly>C:\Datos\Dropbox\Revit API\Source\Tema_17\Ribbon\bin\Debug\Ribbon.dll</Assembly>
+    <FullClassName>Ribbon.Ribbon</FullClassName>
+    <ClientId>1ad923f4-43b1-4e5c-814b-2654d2e2e9fa</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

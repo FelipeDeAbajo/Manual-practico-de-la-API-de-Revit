@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command NoMostrarMasTaskDialog</Text>
+    <Description>Some description for NoMostrarMasTaskDialog</Description>
+    <Assembly>NoMostrarMasTaskDialog.dll</Assembly>
+    <FullClassName>NoMostrarMasTaskDialog.NoMostrarMasTaskDialog</FullClassName>
+    <ClientId>d99f6455-6481-4e20-839f-33ab9706b2b6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application NoMostrarMasTaskDialog</Name>
+    <Assembly>NoMostrarMasTaskDialog.dll</Assembly>
+    <FullClassName>NoMostrarMasTaskDialog.App</FullClassName>
+    <ClientId>78f546ec-9327-4829-adb8-0f9f3020d3d0</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

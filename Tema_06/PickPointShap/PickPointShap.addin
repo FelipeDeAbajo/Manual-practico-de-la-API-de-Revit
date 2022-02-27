@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PickPointShap</Text>
+    <Description>Some description for PickPointShap</Description>
+    <Assembly>PickPointShap.dll</Assembly>
+    <FullClassName>PickPointShap.Command</FullClassName>
+    <ClientId>59e7f19d-c434-44a4-a7b0-4fd391648d88</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PickPointShap</Name>
+    <Assembly>PickPointShap.dll</Assembly>
+    <FullClassName>PickPointShap.App</FullClassName>
+    <ClientId>44de6a84-84d5-41d6-be91-583536d11173</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command InformaciónWork</Text>
+    <Description>Some description for InformaciónWork</Description>
+    <Assembly>InformaciónWork.dll</Assembly>
+    <FullClassName>InformaciónWork.InformaciónWork</FullClassName>
+    <ClientId>7538b4ea-8b65-44f8-a4c8-1611a6c3d7ed</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application InformaciónWork</Name>
+    <Assembly>InformaciónWork.dll</Assembly>
+    <FullClassName>InformaciónWork.App</FullClassName>
+    <ClientId>b8d5ff86-e811-401d-b834-0b21ccf5f9c5</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

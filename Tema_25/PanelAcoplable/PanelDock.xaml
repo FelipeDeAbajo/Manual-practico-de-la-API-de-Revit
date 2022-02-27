@@ -1,0 +1,38 @@
+﻿<Page x:Class="PanelAcoplable.PanelDock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PanelAcoplable"
+             mc:Ignorable="d" Height="414.706" Width="300.84">
+    <Grid  Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+        <Grid x:Name="GridContenedor">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+
+            </Grid.RowDefinitions>
+            <Button Grid.Column="0" Grid.Row="0"  Content="FlipLeftRight" x:Name="btnFlipLeftRight" Click="btnFlipLeftRight_Click_1"  HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"/>
+            <Button Grid.Column="0" Grid.Row="1"  Content="FlipLeft" x:Name="btnFlipLeft" Click="btnFlipLeft_Click_1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"/>
+            <Button Grid.Column="0" Grid.Row="2"  Content="FlipRigh" x:Name="btnFlipRigh" Click="btnFlipRight_Click_1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"/>
+            <Button Grid.Column="0" Grid.Row="3"  Content="Rotate" x:Name="btnRotate" Click="btnRotate_Click_1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"/>
+            <Button Grid.Column="1" Grid.Row="0"  Content="FlipInOut" x:Name="btnFlipInOut" Click="btnFlipInOut_Click_1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"/>
+            <Button Grid.Column="1" Grid.Row="1"  Content="FlipOut" x:Name="btnFlipOut"  Click="btnFlipOut_Click_1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"/>
+            <Button Grid.Column="1" Grid.Row="2"  Content="btnFlipIn" x:Name="btnFlipIn" Click="btnFlipIn_Click_1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"/>
+            <Button Grid.Column="1" Grid.Row="3"  Content="Delete" x:Name="btnDelete" Click="btnDelete_Click_1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"/>
+
+            <Button  Click="Button_Click" Content="Test ExternalEvent" Grid.Column="0" Grid.ColumnSpan="2"  Grid.Row="4" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="auto">
+
+            </Button>
+
+        </Grid>
+
+    </Grid>
+</Page>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearFamilia</Text>
+    <Description>Some description for CrearFamilia</Description>
+    <Assembly>CrearFamilia.dll</Assembly>
+    <FullClassName>CrearFamilia.CrearFamilia</FullClassName>
+    <ClientId>36d0e095-74cc-49ce-a458-5e3dce4146f6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearFamilia</Name>
+    <Assembly>CrearFamilia.dll</Assembly>
+    <FullClassName>CrearFamilia.App</FullClassName>
+    <ClientId>4f0fb962-6694-48bc-878d-b3e572ce676a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

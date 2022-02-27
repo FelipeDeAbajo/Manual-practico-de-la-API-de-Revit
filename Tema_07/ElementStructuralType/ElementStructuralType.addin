@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementStructuralType</Text>
+    <Description>Some description for ElementStructuralType</Description>
+    <Assembly>ElementStructuralType.dll</Assembly>
+    <FullClassName>ElementStructuralType.ElementStructuralType</FullClassName>
+    <ClientId>62e4efef-4cfe-4f61-8550-0a1167d4a74f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ElementStructuralType</Name>
+    <Assembly>ElementStructuralType.dll</Assembly>
+    <FullClassName>ElementStructuralType.App</FullClassName>
+    <ClientId>73c128df-2d40-4c2f-a2bf-1d7212a6e151</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearMatriz</Text>
+    <Description>Some description for CrearMatriz</Description>
+    <Assembly>CrearMatriz.dll</Assembly>
+    <FullClassName>CrearMatriz.CrearMatriz</FullClassName>
+    <ClientId>33fe9084-b7a9-4957-975b-faa707410aae</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearMatriz</Name>
+    <Assembly>CrearMatriz.dll</Assembly>
+    <FullClassName>CrearMatriz.App</FullClassName>
+    <ClientId>90fa9ab2-428d-4e12-ba6f-1f7722ea70fd</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

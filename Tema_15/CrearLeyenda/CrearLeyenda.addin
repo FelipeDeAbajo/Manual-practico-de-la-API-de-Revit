@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearLeyenda</Text>
+    <Description>Some description for CrearLeyenda</Description>
+    <Assembly>CrearLeyenda.dll</Assembly>
+    <FullClassName>CrearLeyenda.CrearLeyenda</FullClassName>
+    <ClientId>222e644c-a04d-4866-b799-1d9abbed819c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearLeyenda</Name>
+    <Assembly>CrearLeyenda.dll</Assembly>
+    <FullClassName>CrearLeyenda.App</FullClassName>
+    <ClientId>2f6fdddc-9d5c-4137-bb25-49e8d4abc658</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

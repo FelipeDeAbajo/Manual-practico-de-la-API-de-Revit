@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ModosDisplayWorkset</Text>
+    <Description>Some description for ModosDisplayWorkset</Description>
+    <Assembly>ModosDisplayWorkset.dll</Assembly>
+    <FullClassName>ModosDisplayWorkset.ModosDisplayWorkset</FullClassName>
+    <ClientId>1a031e02-cb7f-4983-a0cd-b676e91d5436</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ModosDisplayWorkset</Name>
+    <Assembly>ModosDisplayWorkset.dll</Assembly>
+    <FullClassName>ModosDisplayWorkset.App</FullClassName>
+    <ClientId>6f2ba353-1d11-48a2-ac6b-a44238a0f8b2</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

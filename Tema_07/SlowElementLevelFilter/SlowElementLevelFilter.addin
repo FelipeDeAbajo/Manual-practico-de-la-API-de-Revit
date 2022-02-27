@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowElementLevelFilter</Text>
+    <Description>Some description for SlowElementLevelFilter</Description>
+    <Assembly>SlowElementLevelFilter.dll</Assembly>
+    <FullClassName>SlowElementLevelFilter.SlowElementLevelFilter</FullClassName>
+    <ClientId>e66204e8-d22c-4cc1-9601-2f511b0c8bd0</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowElementLevelFilter</Name>
+    <Assembly>SlowElementLevelFilter.dll</Assembly>
+    <FullClassName>SlowElementLevelFilter.App</FullClassName>
+    <ClientId>af66b803-e6c1-4001-a8b4-1b52746a7d2b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

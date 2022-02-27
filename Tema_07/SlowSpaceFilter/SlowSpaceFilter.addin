@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowSpaceFilter</Text>
+    <Description>Some description for SlowSpaceFilter</Description>
+    <Assembly>SlowSpaceFilter.dll</Assembly>
+    <FullClassName>SlowSpaceFilter.SlowSpaceFilter</FullClassName>
+    <ClientId>d4ce6305-ed1d-42a6-9e44-95df6b176f2d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowSpaceFilter</Name>
+    <Assembly>SlowSpaceFilter.dll</Assembly>
+    <FullClassName>SlowSpaceFilter.App</FullClassName>
+    <ClientId>cf1185de-351f-488e-a14e-9f4fbfde493b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

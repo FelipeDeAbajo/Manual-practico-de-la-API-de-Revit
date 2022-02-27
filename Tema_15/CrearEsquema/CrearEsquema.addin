@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearEsquema</Text>
+    <Description>Some description for CrearEsquema</Description>
+    <Assembly>CrearEsquema.dll</Assembly>
+    <FullClassName>CrearEsquema.CrearEsquema</FullClassName>
+    <ClientId>41feddac-46d8-4f1e-a902-e072df4a6daa</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearEsquema</Name>
+    <Assembly>CrearEsquema.dll</Assembly>
+    <FullClassName>CrearEsquema.App</FullClassName>
+    <ClientId>39206b0f-050b-490e-9010-a7a03c6187db</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

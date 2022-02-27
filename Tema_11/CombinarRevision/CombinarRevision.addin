@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CombinarRevision</Text>
+    <Description>Some description for CombinarRevision</Description>
+    <Assembly>CombinarRevision.dll</Assembly>
+    <FullClassName>CombinarRevision.CombinarRevision</FullClassName>
+    <ClientId>b71530c2-d956-4fc5-a715-3fd15e3eb5e8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CombinarRevision</Name>
+    <Assembly>CombinarRevision.dll</Assembly>
+    <FullClassName>CombinarRevision.App</FullClassName>
+    <ClientId>68929cac-4dda-4f2d-9ea3-2e925004d29f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

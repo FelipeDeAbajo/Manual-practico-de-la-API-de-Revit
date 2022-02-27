@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ProgressBarTaskDialog</Text>
+    <Description>Some description for ProgressBarTaskDialog</Description>
+    <Assembly>ProgressBarTaskDialog.dll</Assembly>
+    <FullClassName>ProgressBarTaskDialog.ProgressBarTaskDialog</FullClassName>
+    <ClientId>fc10457b-7498-416f-85a6-7352c9dc8703</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ProgressBarTaskDialog</Name>
+    <Assembly>ProgressBarTaskDialog.dll</Assembly>
+    <FullClassName>ProgressBarTaskDialog.App</FullClassName>
+    <ClientId>03d7b993-e76f-4b83-b8ef-fa8db106bb5d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

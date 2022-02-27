@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command BorrarEntity</Text>
+    <Description>Some description for BorrarEntity</Description>
+    <Assembly>BorrarEntity.dll</Assembly>
+    <FullClassName>BorrarEntity.BorrarEntity</FullClassName>
+    <ClientId>e0aaddca-6ce8-4904-9b0a-7288d1920a5a</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application BorrarEntity</Name>
+    <Assembly>BorrarEntity.dll</Assembly>
+    <FullClassName>BorrarEntity.App</FullClassName>
+    <ClientId>421aa199-c4ac-46d6-8315-1ccd0bd6e6d9</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

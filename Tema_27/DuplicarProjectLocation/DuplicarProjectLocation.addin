@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CrearLocation</Text>
+    <Description>Some description for CrearLocation</Description>
+    <Assembly>CrearLocation.dll</Assembly>
+    <FullClassName>CrearLocation.CrearLocation</FullClassName>
+    <ClientId>cacf5836-bbaf-4186-8b16-4849fad73728</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CrearLocation</Name>
+    <Assembly>CrearLocation.dll</Assembly>
+    <FullClassName>CrearLocation.App</FullClassName>
+    <ClientId>71426de7-1f22-417f-a0fc-6616d3129704</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

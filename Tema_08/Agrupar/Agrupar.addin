@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Agrupar</Text>
+    <Description>Some description for Agrupar</Description>
+    <Assembly>Agrupar.dll</Assembly>
+    <FullClassName>Agrupar.Agrupar</FullClassName>
+    <ClientId>ad2d8724-c158-46f7-883e-71b7d5ac0c21</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Agrupar</Name>
+    <Assembly>Agrupar.dll</Assembly>
+    <FullClassName>Agrupar.App</FullClassName>
+    <ClientId>7a46e59b-bd9e-4b9e-a235-8ec81fb77af1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

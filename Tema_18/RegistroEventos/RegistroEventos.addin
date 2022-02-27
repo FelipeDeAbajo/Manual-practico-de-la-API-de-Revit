@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Text>Activar Eventos</Text>
+		<Description>Creamos el registro de Eventos</Description>
+		<Assembly>RegistroEventos.dll</Assembly>
+		<FullClassName>RegistroEventos.RegistroEventos</FullClassName>
+		<ClientId>7c0f3fbc-0e87-4391-a5a7-4dd3083dd8cb</ClientId>
+		<VendorId>FdAA</VendorId>
+		<VendorDescription>Felipe de Abajo</VendorDescription>
+	</AddIn>
+	<AddIn Type="Command">
+		<Text>Cancelar Eventos</Text>
+		<Description>Anulamos el registro de Eventos</Description>
+		<Assembly>RegistroEventos.dll</Assembly>
+		<FullClassName>RegistroEventos.EliminarRegistroEventos</FullClassName>
+		<ClientId>af30b960-0c3b-4a42-969e-47097c563cee</ClientId>
+		<VendorId>FdAA</VendorId>
+		<VendorDescription>Felipe de Abajo</VendorDescription>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>Application RegistroEventos</Name>
+		<Assembly>RegistroEventos.dll</Assembly>
+		<FullClassName>RegistroEventos.RegistroEventosApp</FullClassName>
+		<ClientId>e555f6f5-145b-48eb-aaeb-bd00737e2b99</ClientId>
+		<VendorId>FdAA</VendorId>
+		<VendorDescription>Felipe de Abajo</VendorDescription>
+	</AddIn>
+</RevitAddIns>

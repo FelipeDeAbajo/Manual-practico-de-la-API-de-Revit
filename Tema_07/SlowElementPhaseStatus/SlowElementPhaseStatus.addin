@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SlowElementPhaseStatus</Text>
+    <Description>Some description for SlowElementPhaseStatus</Description>
+    <Assembly>SlowElementPhaseStatus.dll</Assembly>
+    <FullClassName>SlowElementPhaseStatus.SlowElementPhaseStatus</FullClassName>
+    <ClientId>fd4a0721-eea0-439c-a60f-782463c6937f</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SlowElementPhaseStatus</Name>
+    <Assembly>SlowElementPhaseStatus.dll</Assembly>
+    <FullClassName>SlowElementPhaseStatus.App</FullClassName>
+    <ClientId>4035210d-52ce-4b81-ad4f-b374901bf848</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

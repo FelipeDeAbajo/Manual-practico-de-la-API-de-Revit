@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Vistas</Text>
+    <Description>Some description for Vistas</Description>
+    <Assembly>Vistas.dll</Assembly>
+    <FullClassName>Vistas.Vistas</FullClassName>
+    <ClientId>34100fcf-2ae0-4159-970a-8dbae989af62</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Vistas</Name>
+    <Assembly>Vistas.dll</Assembly>
+    <FullClassName>Vistas.App</FullClassName>
+    <ClientId>289b27bd-494e-4b02-b891-3a1ef9f52f84</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

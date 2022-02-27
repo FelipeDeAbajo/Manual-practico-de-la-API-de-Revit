@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RecuperarDatos</Text>
+    <Description>Some description for RecuperarDatos</Description>
+    <Assembly>RecuperarDatos.dll</Assembly>
+    <FullClassName>RecuperarDatos.RecuperarDatos</FullClassName>
+    <ClientId>0b6dee56-1e02-4440-bbba-c73752520728</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RecuperarDatos</Name>
+    <Assembly>RecuperarDatos.dll</Assembly>
+    <FullClassName>RecuperarDatos.App</FullClassName>
+    <ClientId>a96f05de-4ad7-4adc-b424-a2b4d9c51f46</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

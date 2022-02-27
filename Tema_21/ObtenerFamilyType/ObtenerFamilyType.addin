@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ObtenerFamilyType</Text>
+    <Description>Some description for ObtenerFamilyType</Description>
+    <Assembly>ObtenerFamilyType.dll</Assembly>
+    <FullClassName>ObtenerFamilyType.ObtenerFamilyType</FullClassName>
+    <ClientId>30ab94a8-fb98-4f60-8459-7e56785b2049</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ObtenerFamilyType</Name>
+    <Assembly>ObtenerFamilyType.dll</Assembly>
+    <FullClassName>ObtenerFamilyType.App</FullClassName>
+    <ClientId>0ee871bd-4675-444e-98f6-e911781dbb07</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

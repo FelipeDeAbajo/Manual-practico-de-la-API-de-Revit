@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command EditorTextoOpciones</Text>
+    <Description>Some description for EditorTextoOpciones</Description>
+    <Assembly>EditorTextoOpciones.dll</Assembly>
+    <FullClassName>EditorTextoOpciones.EditorTextoOpciones</FullClassName>
+    <ClientId>31ef2f03-9a83-4d6a-9dff-79425eaef26c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application EditorTextoOpciones</Name>
+    <Assembly>EditorTextoOpciones.dll</Assembly>
+    <FullClassName>EditorTextoOpciones.App</FullClassName>
+    <ClientId>1b3750ab-64ec-438b-9481-7003d7aa6879</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

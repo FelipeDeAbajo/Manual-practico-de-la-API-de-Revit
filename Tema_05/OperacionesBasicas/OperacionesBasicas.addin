@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command OperacionesBasicas</Text>
+    <Description>Some description for OperacionesBasicas</Description>
+    <Assembly>OperacionesBasicas.dll</Assembly>
+    <FullClassName>OperacionesBasicas.OperacionesBasicas</FullClassName>
+    <ClientId>731ccb83-2103-428a-ba76-5fe19965da73</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application OperacionesBasicas</Name>
+    <Assembly>OperacionesBasicas.dll</Assembly>
+    <FullClassName>OperacionesBasicas.App</FullClassName>
+    <ClientId>9739b53f-0d14-40c3-845b-ae52e81fc159</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

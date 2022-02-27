@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementMultiClass</Text>
+    <Description>Some description for ElementMultiClass</Description>
+    <Assembly>ElementMultiClass.dll</Assembly>
+    <FullClassName>ElementMultiClass.ElementMultiClass</FullClassName>
+    <ClientId>27bc3cd5-6377-4d8d-8379-72f45b6a1af1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ElementMultiClass</Name>
+    <Assembly>ElementMultiClass.dll</Assembly>
+    <FullClassName>ElementMultiClass.App</FullClassName>
+    <ClientId>3ff43125-5e94-469d-abde-a1b263a34694</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

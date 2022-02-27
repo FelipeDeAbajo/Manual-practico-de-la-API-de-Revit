@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FormularioWPF</Text>
+    <Description>Some description for FormularioWPF</Description>
+    <Assembly>FormularioWPF.dll</Assembly>
+    <FullClassName>FormularioWPF.FormularioWPF</FullClassName>
+    <ClientId>842973dc-0003-40c6-8b6f-603b97d5e9b9</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FormularioWPF</Name>
+    <Assembly>FormularioWPF.dll</Assembly>
+    <FullClassName>FormularioWPF.App</FullClassName>
+    <ClientId>5e96cadf-19f5-44a0-9d41-f9a56e52b3c2</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>

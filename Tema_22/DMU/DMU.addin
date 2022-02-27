@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DMU</Text>
+    <Description>Some description for DMU</Description>
+    <Assembly>DMU.dll</Assembly>
+    <FullClassName>DMU.DMU</FullClassName>
+    <ClientId>85d2ab78-99a3-4635-aca6-db4e3a4c595b</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DMU</Name>
+    <Assembly>DMU.dll</Assembly>
+    <FullClassName>DMU.App</FullClassName>
+    <ClientId>8c58333d-2fe8-4753-84eb-1d43ad9e70ae</ClientId>
+    <VendorId>FdAA</VendorId>
+    <VendorDescription>Felipe de Abajo</VendorDescription>
+  </AddIn>
+</RevitAddIns>
